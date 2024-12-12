@@ -28,4 +28,9 @@ IstatData is the new platform to disseminate Istat aggregate data.
 All data currently available on I.Stat have been moved to IstatData, which allows to browse the same contents improved with charts, maps and thematic data summaries.
 The platform uses the open source tools "Data Browser" and "Meta & Data Manager" developed by Istat (https://sdmxistattoolkit.github.io) following the international standard SDMX (Statistical Data and Metadata eXchange) for the exchange and sharing of data and statistical metadata.
 
+### List of files:
+The datasets used  were obtained from the Population and Households section and the Foreigners and Immigrants section, located within the respective path on the website.
+
+
+
 
