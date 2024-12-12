@@ -18,3 +18,14 @@ These dataset also imported as 4 seperate `csv` files:
 `DCIS_CV_STRA_12122024114315627.csv`: Gender and presence in Italy
 
 `DCIS_CV_STRA_12122024114340977.csv`: Level of education and gender
+
+
+# IstatData
+
+url: https://esploradati.istat.it/
+
+IstatData is the new platform to disseminate Istat aggregate data.
+All data currently available on I.Stat have been moved to IstatData, which allows to browse the same contents improved with charts, maps and thematic data summaries.
+The platform uses the open source tools "Data Browser" and "Meta & Data Manager" developed by Istat (https://sdmxistattoolkit.github.io) following the international standard SDMX (Statistical Data and Metadata eXchange) for the exchange and sharing of data and statistical metadata.
+
+
