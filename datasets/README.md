@@ -35,3 +35,21 @@ The datasets used were obtained from the POPOLAZIONE E SOCIETÀ section and the 
 | ------------- | ------------- | ------------- | 
 | D6  | [noi-italia.istat.it](https://noi-italia.istat.it/pagina.php?L=0&categoria=4&dove=ITA)  | `NI2024-Stranieri_altri_dati_2`; Education levels and age groups (15-64 years) of both domestic and foreign populations |
 
+# Immigrants.Stat
+
+url: http://stra-dati.istat.it/Index.aspx
+
+Immigrants.Stat is the data warehouse that collects and organizes the statistics produced by Istat on foreign immigrants and new citizens in order to make them more easily accessible to the different types of users involved (researchers, policy makers, journalists, citizens). It is a work in progress as the system will adapt to new information needs.
+
+### List of files:
+
+| ID  | Dataset link | Name |
+| ------------- | ------------- | ------------- | 
+| D7  | [stra-dati.istat.it](http://stra-dati.istat.it/Index.aspx?lang=en&SubSessionId=1e10059f-62b5-4107-bb48-38b281ae5de0)  | `DCCV_OCCUPATIT1_12012025111941696`; Employment (thousands): Data by highest level of education attained, sub national level - foreigners |
+| D8  | [stra-dati.istat.it](http://stra-dati.istat.it/?lang=en&SubSessionId=9168695d-68df-4465-8170-642f0da567c1#)  | `DCCV_OCCUPATIT1_12012025110421591`;  Employment: Data by gender, full-time/part-time, sub national level - foreigners |
+| D9  | [stra-dati.istat.it](http://stra-dati.istat.it/?lang=en&SubSessionId=9168695d-68df-4465-8170-642f0da567c1#)  | `DCCV_OCCUPATIT1_12012025110704049`;  Employment: Data on employees by gender, sub national level - foreigners |
+| D10  | [stra-dati.istat.it](http://stra-dati.istat.it/?lang=en&SubSessionId=9168695d-68df-4465-8170-642f0da567c1#)  | `DCCV_TAXOCCU1_12012025110922125`;  Employment rate: Data by gender, highest level of education attained, sub national level - foreigners |
+| D11  | [stra-dati.istat.it](http://stra-dati.istat.it/?lang=en&SubSessionId=9168695d-68df-4465-8170-642f0da567c1#)  | `DCCV_TAXDISOCCU1_12012025111208359`;  Unemployment rate: Data by highest level of education attained, sub national level - foreigners  |
+| D12  | [stra-dati.istat.it](http://stra-dati.istat.it/?lang=en&SubSessionId=9168695d-68df-4465-8170-642f0da567c1#)  | `DCIS_PERMSOGG1_12012025111539693`;  Residence permits of non-EU citizens: Annual inflows of non-EU citizens by asylum granted, asylum application and humanitarian reasons  |
+
+
