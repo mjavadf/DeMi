@@ -101,3 +101,195 @@ The OECD (Organisation for Economic Co-operation and Development) is a forum and
 | D15  | [data-explorer.oecd.org](https://data-explorer.oecd.org/vis?df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_MIG_INT%40DF_MIG_INT_PER&df%5Bag%5D=OECD.ELS.IMD&df%5Bvs%5D=1.0&dq=.A...&lom=LASTNPERIODS&lo=10&to%5BTIME_PERIOD%5D=false)  | `OECD.ELS.IMD,DSD_MIG_INT@DF_MIG_INT_PER,1.0+.A`; Standardised inflows of permanent-type migrants, Migration flows by category | Persons |
 
 ### 3.2. Mashed-up dataset
+
+
+
+
+# Quality analysis of the datasets
+To conduct the quality analysis, we adhered to the [ISO/IEC 25012 standard](https://iso25000.com/index.php/en/iso-25000-standards/iso-25012), which outlines 15 key data quality characteristics, as shown in the picture below. 
+
+![Picture 1](https://github.com/user-attachments/assets/58a8f18e-d348-499f-9db5-b64ca6c3133f)
+
+These characteristics are grouped into two main categories: Inherent Data Quality and *System-Dependent Data Quality. For this analysis, we focused exclusively on *Inherent Data Quality*, as it pertains to the intrinsic properties of the data itself, independent of any specific system or context. This focus allows us to evaluate the dataset's accuracy, completeness, consistency, credibility, and currentness comprehensively.
+
+During the analysis, we observed that several columns contained a significant proportion of missing values. To quantify this issue, we calculated the percentage of completeness for each dataset using a [specialized algorithm](https://github.com/mjavadf/DeMi/blob/main/datasets/completeness.py), created with python. The detailed results of this evaluation are provided below.
+
+**D1 - Italy, regions, provinces (IT1,29_7_DF_DCIS_POPSTRRES1_1,1.0):**
+
+| **Characteristic** | **Description**                                   | **Findings**                                                                                           |
+|---------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| **Accuracy**        |     |       |
+| **Completeness**    |     |   |
+| **Consistency**     | |   |
+| **Credibility**     |   | |
+| **Currentness**     |  |                                                 |
+
+
+**D2 - Italy, regions, provinces (IT1,29_316_DF_DCIS_POPSTRBIL1_1,1.0):**
+
+| **Characteristic** | **Description**                                   | **Findings**                                                                                           |
+|---------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| **Accuracy**        |     |       |
+| **Completeness**    |     |   |
+| **Consistency**     | |   |
+| **Credibility**     |   | |
+| **Currentness**     |  |   
+
+
+**D3 - Process and age class (IT1,29_849_DF_DCIS_ACQCITIZ_1,1.0):**
+
+| **Characteristic** | **Description**                                   | **Findings**                                                                                           |
+|---------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| **Accuracy**        |     |       |
+| **Completeness**    |     |   |
+| **Consistency**     | |   |
+| **Credibility**     |   | |
+| **Currentness**     |  |   
+
+**D4 - Immigrants - citizenship (IT1,28_185_DF_DCIS_MIGRAZIONI_2,1.0):**
+
+| **Characteristic** | **Description**                                   | **Findings**                                                                                           |
+|---------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| **Accuracy**        | Data correctly represents real-world entities.    | CITIZENSHIP codes align with known conventions. Validation against ISO 3166 codes is recommended.     |
+| **Completeness**    | All required data is present.                     | CITIZENSHIP has 31 missing values; OBS_STATUS and NOTE_* columns are mostly empty and should be evaluated for necessity. |
+| **Consistency**     | Data is free from contradictions and uniform in format. | FREQ, SEX, and AGE columns show consistent formatting. A detailed review of value mappings (e.g., SEX values) would enhance understanding. |
+| **Credibility**     | Data is trusted and reliable.                     | Appears credible based on structure, but external verification of data sources (e.g., DATAFLOW) is recommended. |
+| **Currentness**     | Data is up-to-date.                               | TIME_PERIOD covers 2019–2023, reflecting recent data.                                                 |
+
+**D5 - Type of residence permit and citizenship (IT1,29_348_DF_DCIS_PERMSOGG1_1,1.0):**
+
+| **Characteristic** | **Description**                                   | **Findings**                                                                                           |
+|---------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| **Accuracy**        |     |       |
+| **Completeness**    |     |   |
+| **Consistency**     | |   |
+| **Credibility**     |   | |
+| **Currentness**     |  |   
+
+**D6 - NI2024-Stranieri_altri_dati_2:**
+
+| **Characteristic** | **Description**                                   | **Findings**                                                                                           |
+|---------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| **Accuracy**        |     |       |
+| **Completeness**    |     |   |
+| **Consistency**     | |   |
+| **Credibility**     |   | |
+| **Currentness**     |  |  
+
+**D7 - DCCV_OCCUPATIT1_12012025111941696:**
+
+| **Characteristic** | **Description**                                   | **Findings**                                                                                           |
+|---------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| **Accuracy**        |     |       |
+| **Completeness**    |     |   |
+| **Consistency**     |     |   |
+| **Credibility**     |     |   |
+| **Currentness**     |     |   |
+
+**D8 - DCCV_OCCUPATIT1_12012025110421591:**
+
+| **Characteristic** | **Description**                                   | **Findings**                                                                                           |
+|---------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| **Accuracy**        |     |       |
+| **Completeness**    |     |   |
+| **Consistency**     |     |   |
+| **Credibility**     |     |   |
+| **Currentness**     |     |   |
+
+**D9 - DCCV_OCCUPATIT1_12012025110704049:**
+
+| **Characteristic** | **Description**                                   | **Findings**                                                                                           |
+|---------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| **Accuracy**        |     |       |
+| **Completeness**    |     |   |
+| **Consistency**     |     |   |
+| **Credibility**     |     |   |
+| **Currentness**     |     |   |
+
+**D10 - DCCV_TAXOCCU1_12012025110922125:**
+
+| **Characteristic** | **Description**                                   | **Findings**                                                                                           |
+|---------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| **Accuracy**        |     |       |
+| **Completeness**    |     |   |
+| **Consistency**     |     |   |
+| **Credibility**     |     |   |
+| **Currentness**     |     |   |
+
+**D11 - DCCV_TAXDISOCCU1_12012025111208359:**
+
+| **Characteristic** | **Description**                                   | **Findings**                                                                                           |
+|---------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| **Accuracy**        |     |       |
+| **Completeness**    |     |   |
+| **Consistency**     |     |   |
+| **Credibility**     |     |   |
+| **Currentness**     |     |   |
+
+**D12 - DCIS_PERMSOGG1_12012025111539693:**
+
+| **Characteristic** | **Description**                                   | **Findings**                                                                                           |
+|---------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| **Accuracy**        |     |       |
+| **Completeness**    |     |   |
+| **Consistency**     |     |   |
+| **Credibility**     |     |   |
+| **Currentness**     |     |   |
+
+**D13 - OECD.ELS.IMD,DSD_MIG@DF_MIG,1.0+ITA..A.B11:**
+
+| **Characteristic** | **Description**                                   | **Findings**                                                                                           |
+|---------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| **Accuracy**        |     |       |
+| **Completeness**    |     |   |
+| **Consistency**     |     |   |
+| **Credibility**     |     |   |
+| **Currentness**     |     |   |
+
+**D14 - OECD.ELS.IMD,DSD_MIG_INT@DF_MIG_INT_TEMP,1.0+.A:**
+
+| **Characteristic** | **Description**                                   | **Findings**                                                                                           |
+|---------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| **Accuracy**        |     |       |
+| **Completeness**    |     |   |
+| **Consistency**     |     |   |
+| **Credibility**     |     |   |
+| **Currentness**     |     |   |
+
+**D15 - OECD.ELS.IMD,DSD_MIG_INT@DF_MIG_INT_PER,1.0+.A:**
+
+| **Characteristic** | **Description**                                   | **Findings**                                                                                           |
+|---------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| **Accuracy**        |     |       |
+| **Completeness**    |     |   |
+| **Consistency**     |     |   |
+| **Credibility**     |     |   |
+| **Currentness**     |     |   |
+
+### Completeness Algorithm Results
+
+The completeness of each dataset was assessed by identifying null values. Null values were determined by checking each cell for missing or empty data, including specific indicators of missing values such as `NaN`, `' '`, `''`, `'-'`, and `'.'`. The following table provides the total values, null values, and completeness percentage for each dataset:
+
+| **Dataset** | **Total Values** | **Null Values** | **Completeness (%)** |
+|-------------|------------------|-----------------|----------------------|
+| **D1**      | 4,276,044        | 2,028,780       | 52.55%               |
+| **D2**      | 639,180          | 297,780         | 53.41%               |
+| **D3**      | 8,568            | 4,488           | 47.62%               |
+| **D4**      | 331,992          | 172,153         | 48.15%               |
+| **D5**      | 90,175           | 46,839          | 48.06%               |
+| **D6**      | 540              | 0               | 100.0%               |
+| **D7**      | 24,024           | 3,696           | 84.62%               |
+| **D8**      | 20,250           | 2,700           | 86.67%               |
+| **D9**      | 22,950           | 2,700           | 88.24%               |
+| **D10**     | 20,400           | 2,400           | 88.24%               |
+| **D11**     | 30,195           | 4,026           | 86.67%               |
+| **D12**     | 361,605          | 48,214          | 86.67%               |
+| **D13**     | 271,950          | 18,223          | 93.30%               |
+| **D14**     | 41,472           | 3,491           | 91.58%               |
+| **D15**     | 41,184           | 3,447           | 91.63%               |
+
+### Notes
+- **D6** has a perfect completeness rate of 100%, with no null values detected.
+- **D13** shows the highest completeness percentage at 93.30%.
+- **D3**, **D4**, and **D5** have lower completeness percentages (around 47-48%), indicating that a significant portion of their data is missing.
+- The completeness percentage varies widely across datasets, with values ranging from 47.62% to 100%. 
