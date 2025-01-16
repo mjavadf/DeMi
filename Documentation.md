@@ -102,7 +102,7 @@ The OECD (Organisation for Economic Co-operation and Development) is a forum and
 
 ### 3.2. Mashed-up dataset
 
-
+!!! TO BE DONE !!!
 
 
 # Quality analysis of the datasets
@@ -110,7 +110,7 @@ To conduct the quality analysis, we adhered to the [ISO/IEC 25012 standard](http
 
 ![Picture 1](https://github.com/user-attachments/assets/58a8f18e-d348-499f-9db5-b64ca6c3133f)
 
-These characteristics are grouped into two main categories: Inherent Data Quality and *System-Dependent Data Quality. For this analysis, we focused exclusively on *Inherent Data Quality*, as it pertains to the intrinsic properties of the data itself, independent of any specific system or context. This focus allows us to evaluate the dataset's accuracy, completeness, consistency, credibility, and currentness comprehensively.
+These characteristics are grouped into two main categories: Inherent Data Quality and System-Dependent Data Quality. For this analysis, we focused exclusively on *Inherent Data Quality*, as it pertains to the intrinsic properties of the data itself, independent of any specific system or context. This focus allows us to evaluate the dataset's accuracy, completeness, consistency, credibility, and currentness comprehensively.
 
 During the analysis, we observed that several columns contained a significant proportion of missing values. To quantify this issue, we calculated the percentage of completeness for each dataset using a [specialized algorithm](https://github.com/mjavadf/DeMi/blob/main/datasets/completeness.py), created with python. The detailed results of this evaluation are provided below.
 
