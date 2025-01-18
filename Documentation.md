@@ -147,6 +147,8 @@ During the analysis, we observed that several columns contained a significant pr
 | **Currentness**     |  |   
 
 **D4 - Immigrants - citizenship (IT1,28_185_DF_DCIS_MIGRAZIONI_2,1.0):**
+During the initial analysis of the dataset, it was observed that the csv file had structural inconsistencies that rendered the calculation of completeness percentages infeasible. To address these challenges and enable accurate analysis, a preprocessing step was performed using a [python script](https://github.com/mjavadf/DeMi/blob/main/datasets/formattingCSV.py), [the formatted file](https://github.com/mjavadf/DeMi/blob/main/datasets/NoiItalia2024/output_file.csv) was then uploaded and analyzed. 
+
 
 | **Characteristic** | **Description**                                   | **Findings**                                                                                           |
 |---------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------|
