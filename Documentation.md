@@ -228,3 +228,53 @@ The fields with an asterisk (*) have to be further explained in the notes below.
 1.6 : we do not use a tool for calculating the range of the risk of deanonymization as anonymization is not necessary for our dataset. The dataset does not contain any personal data that requires anonymization. Therefore, the three mandatory parameters—singling out, linking out, and inference out—are not applicable to our case.
 
 1.7 : According to [OECD Privacy Policy](https://www.oecd.org/en/about/privacy.html), personal data is collected directly via user input and indirectly through cookies for personalization. However, the policy lacks clarity on user consent and GDPR compliance, requiring further verification of adherence to privacy regulations.
+
+
+
+### Licenses
+Below is a quick overview of the licensing terms for each dataset used in this project.
+
+| **Dataset** | **License** | 
+|-------------|------------------|
+| **D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12**      | [CC-BY 3.0 IT](https://creativecommons.org/licenses/by/3.0/it/deed.en) |
+| **D13, D14, D15**  | [OECD’s Terms and Conditions*](https://www.oecd.org/en/about/terms-conditions.html) |
+
+Most of the data (D1–D12) is available under the Creative Commons Attribution 3.0 Italy ([CC-BY 3.0 IT](https://creativecommons.org/licenses/by/3.0/it/deed.en)) license, which permits sharing, adapting, and commercial use as long as you give appropriate credit and do not impose further restrictions. A few datasets (D13–D15) fall under the [OECD’s Terms and Conditions*](https://www.oecd.org/en/about/terms-conditions.html), meaning they can generally be used for non-commercial purposes with source attribution, but commercial use or wider distribution may require prior written permission from the OECD. This distinction ensures proper usage and compliance with each provider’s requirements.
+
+### Purpose 
+
+**Primary datasets**
+
+D1 – This dataset provides official demographic information about foreign residents in Italy starting 1st January. 
+
+D2 –  This dataset is designed to track various demographic indicators related to the foreign population in Italy, such as census population counts at the start of each year, live births, deaths, and migration figures etc.
+
+D3 – This dataset analyzes and reports on specific processes related to citizenship, by different age groups in Italy.
+
+D4 – This dataset provides statistics on immigrants in Italy, categorized by their initial citizenship. 
+
+D5 – This dataset appears to focus on immigrants’ citizenship in Italy with a particular emphasis on their types of residence permits. 
+
+D6 – This dataset is designed to provide a comparative analysis of the educational attainment levels across domestic and foreign populations within Italy, specifically targeting the working-age group of 15 to 64 years.
+
+D7 – This dataset provides detailed statistics on employment figures (in thousands) segmented by the highest level of education attained among foreigners. 
+
+D8 – This dataset includes employment data divided by gender and whether the employment is full-time or part-time for foreigners.
+
+D9 – Focused on the employment of foreigners by gender at a sub-national level, this dataset tracks the number of employed foreign men and women across different regions, highlighting gender disparities or balances in the job market.
+
+D10 – This dataset details the employment rates of foreigners, categorized by both gender and the highest level of education attained. It provides this data at a sub-national level, useful for identifying how education and gender impact employment rates among foreigners in different areas.
+
+D11 – Offering a detailed look at unemployment rates among foreigners based on their educational qualifications, this dataset covers various regions, helping to pinpoint educational or skill gaps that affect employability at the sub-national level.
+
+D12 – This dataset provides annual data on the inflow of non-EU citizens granted residence permits for reasons such as asylum and humanitarian grounds.
+
+D13 – This dataset captures the annual volume of non-Italian nationals entering the country for the purpose of residency.
+
+D14 – This dataset tracks the number of individuals entering a country on a temporary basis, which might include workers, students, or those on short-term visas.
+
+D15 – This dataset focuses on standardized data regarding the inflows of permanent-type migrants into Italy, detailing migration flows by category. It captures the number of individuals entering the country with the intention of long-term or permanent residency.
+
+
+**Mashed-up datasets**
+
