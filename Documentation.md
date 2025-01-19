@@ -105,7 +105,7 @@ The OECD (Organisation for Economic Co-operation and Development) is a forum and
 !!! TO BE DONE !!!
 
 
-# Quality analysis of the datasets
+# 4. Quality analysis of the datasets
 To conduct the quality analysis, we adhered to the [ISO/IEC 25012 standard](https://iso25000.com/index.php/en/iso-25000-standards/iso-25012), which outlines 15 key data quality characteristics, as shown in the picture below. 
 
 ![Picture 1](https://github.com/user-attachments/assets/58a8f18e-d348-499f-9db5-b64ca6c3133f)
@@ -173,7 +173,7 @@ The completeness of each dataset was assessed by identifying null values. Null v
 - The completeness percentage varies widely across datasets, with values ranging from 47.62% to 100%. 
 
 
-## Legal analysis
+# 5. Legal analysis
 ### Original Datasets
 The original datasets used to cover the different themes of this project are listed in [Section 3.1. ](#section-3-1)
 
