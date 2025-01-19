@@ -98,7 +98,7 @@ The OECD (Organisation for Economic Co-operation and Development) is a forum and
 | ------------- | ------------- | ------------- | ------------- |
 | D13  | [data-explorer.oecd.org](https://data-explorer.oecd.org/vis?lc=en&fs%5B0%5D=Topic%2C1%7CSociety%23SOC%23%7CMigration%23SOC_MIG%23&pg=0&fc=Topic&bp=true&snb=6&vw=ov&df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_MIG%40DF_MIG&df%5Bag%5D=OECD.ELS.IMD&df%5Bvs%5D=1.0&dq=ITA..A.B11....&pd=2019%2C&to%5BTIME_PERIOD%5D=false&ly%5Bcl%5D=TIME_PERIOD&ly%5Brs%5D=SEX&ly%5Brw%5D=CITIZENSHIP)  | `OECD.ELS.IMD,DSD_MIG@DF_MIG,1.0+ITA..A.B11`; International migration database, Inflows of foreign population; Reference Area: Italy | Persons |
 | D14  | [data-explorer.oecd.org](https://data-explorer.oecd.org/vis?lc=en&fs%5B0%5D=Topic%2C1%7CSociety%23SOC%23%7CMigration%23SOC_MIG%23&pg=0&fc=Topic&bp=true&snb=6&df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_MIG_INT%40DF_MIG_INT_TEMP&df%5Bag%5D=OECD.ELS.IMD&df%5Bvs%5D=1.0&dq=.A...&lom=LASTNPERIODS&lo=10&to%5BTIME_PERIOD%5D=false&vw=tb)  | `OECD.ELS.IMD,DSD_MIG_INT@DF_MIG_INT_TEMP,1.0+.A`; Standardised inflows of temporary migrants, Migration flows by category | Persons |
-| D15  | [data-explorer.oecd.org](https://data-explorer.oecd.org/vis?df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_MIG_INT%40DF_MIG_INT_PER&df%5Bag%5D=OECD.ELS.IMD&df%5Bvs%5D=1.0&dq=.A...&lom=LASTNPERIODS&lo=10&to%5BTIME_PERIOD%5D=false)  | `OECD.ELS.IMD,DSD_MIG_INT@DF_MIG_INT_PER,1.0+.A`; Standardised inflows of permanent-type migrants, Migration flows by category | Persons |
+| D15  | [data-explorer.oecd.org](https://data-explorer.oecd.org/vis?df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_MIG_INT%40DF_MIG_INT_PER&df%5Bag%5D=OECD.ELS.IMD&df%5Bvs%5D=1.0&dq=.A...&lom=LASTNPERIODS&lo=10&to%5BTIME_PERIOD%5D=false)  | `OECD.ELS.IMD,DSD_MIG_INT@DF_MIG_INT_PER,1.0+ITA.A...`; Standardised inflows of permanent-type migrants, Migration flows by category | Persons |
 
 ### 3.2. Mashed-up dataset
 
@@ -257,7 +257,7 @@ During the initial analysis of the dataset, it was observed that the csv file ha
 | **Credibility**     |     |   |
 | **Currentness**     |     |   |
 
-**D15 - OECD.ELS.IMD,DSD_MIG_INT@DF_MIG_INT_PER,1.0+.A:**
+**D15 - OECD.ELS.IMD,DSD_MIG_INT@DF_MIG_INT_PER,1.0+ITA.A...:**
 
 | **Characteristic** | **Description**                                   | **Findings**                                                                                           |
 |---------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------|
