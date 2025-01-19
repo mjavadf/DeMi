@@ -114,158 +114,35 @@ These characteristics are grouped into two main categories: Inherent Data Qualit
 
 During the analysis, we observed that several columns contained a significant proportion of missing values. To quantify this issue, we calculated the percentage of completeness for each dataset using a [specialized algorithm](https://github.com/mjavadf/DeMi/blob/main/datasets/completeness.py), created with python. The detailed results of this evaluation are provided below.
 
-**D1 - Italy, regions, provinces (IT1,29_7_DF_DCIS_POPSTRRES1_1,1.0):**
 
-| **Characteristic** | **Description**                                   | **Findings**                                                                                           |
-|---------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| **Accuracy**        |     |       |
-| **Completeness**    |     |   |
-| **Consistency**     | |   |
-| **Credibility**     |   | |
-| **Currentness**     |  |                                                 |
+| **Dataset**        | **Accuracy** | **Completeness** | **Consistency** | **Credibility** | **Currentness** |
+|--------------------|--------------|------------------|-----------------|-----------------|-----------------|
+| **D1, D2, D3, D4, D5** | The datasets seem to contain population statistics, but without further context or a known reference, verifying the accuracy of the `OBS_VALUE` column is difficult. However, the data appears numerical and follows a consistent pattern for different years. In **D4**, the dataset includes a `CITIZENSHIP` value of 999, which may represent unknown or unspecified values. | There are missing values in several columns, including `OBS_STATUS`, `NOTE_*`, and other metadata fields. While some missing values may be expected (e.g., supplementary notes), the lack of completeness in the metadata columns limits the context for interpreting the data. | The datasets are logically structured, and the rows are consistent in terms of columns. However, missing data in `NOTE_*` columns raises the possibility of inconsistency in additional attributes or annotations. | The datasets come from a reliable source (it includes terms like `IT1:29_7_DF` which are references to an official dataset identifier from a trusted body). | The datasets include time periods ranging from 2019 to 2023, so they appear to be up-to-date in the context of our project. |
 
+---                             
 
-**D2 - Italy, regions, provinces (IT1,29_316_DF_DCIS_POPSTRBIL1_1,1.0):**
+During the initial analysis of D6, we noticed that the csv file had structural inconsistencies that rendered the calculation of completeness percentages infeasible. To address these challenges and enable accurate analysis, a preprocessing step was performed using a [python script](https://github.com/mjavadf/DeMi/blob/main/datasets/formattingCSV.py), [the formatted file](https://github.com/mjavadf/DeMi/blob/main/datasets/NoiItalia2024/output_file.csv) was then uploaded and analyzed. 
 
-| **Characteristic** | **Description**                                   | **Findings**                                                                                           |
-|---------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| **Accuracy**        |     |       |
-| **Completeness**    |     |   |
-| **Consistency**     | |   |
-| **Credibility**     |   | |
-| **Currentness**     |  |   
+| **Dataset**        | **Accuracy** | **Completeness** | **Consistency** | **Credibility** | **Currentness** |
+|--------------------|--------------|------------------|-----------------|-----------------|-----------------|
+| **D6**  | The dataset contains percentage values for foreign and Italian populations by age group and education level. The values in the `Foreign_Percentage` and `Italian_Percentagecolumns` seem plausible. | The dataset appears complete for the given columns (`Year`, `Age_Group`, `Education_Level`, etc.) and contains no missing values for these fields. | The dataset is consistent in structure and the values for `Foreign_Percentage` and `Italian_Percentage` seem logically coherent when compared to each other. | The dataset appears reliable. | The dataset includes time periods ranging from 2019 to 2023, so it appears to be up-to-date in the context of our project. |
 
+---
 
-**D3 - Process and age class (IT1,29_849_DF_DCIS_ACQCITIZ_1,1.0):**
+| **Dataset**        | **Accuracy** | **Completeness** | **Consistency** | **Credibility** | **Currentness** |
+|--------------------|--------------|------------------|-----------------|-----------------|-----------------|
+| **D7, D8, D9, D10, D11, D12** | The data in the `Value` column appears reasonable for employment statistics. | The datasets appear to be complete for the columns provided, with no missing data for critical fields like `TIME`, `Age class`, `CITTADINANZA`, and `Value`. However, columns such as `Flag Code`s and `Flags` have missing values, which may affect the completeness of the metadata. | The datasets are internally consistent, with time periods (`TIME`) and corresponding values (`Value`) aligning correctly. | The datasets appear to come from a credible source. | The datasets include time periods ranging from 2019 to 2023, so they appear to be up-to-date in the context of our project. |
 
-| **Characteristic** | **Description**                                   | **Findings**                                                                                           |
-|---------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| **Accuracy**        |     |       |
-| **Completeness**    |     |   |
-| **Consistency**     | |   |
-| **Credibility**     |   | |
-| **Currentness**     |  |   
+| **Dataset**        | **Accuracy** | **Completeness** | **Consistency** | **Credibility** | **Currentness** |
+|--------------------|--------------|------------------|-----------------|-----------------|-----------------|
+| **D13, D14, D15** | The datasets provide migration statistics, including values such as `OBS_VALUE`, which represent migration figures by citizenship. | The datasets contain several columns with missing values, such as `TIME_PERIOD`, `OBS_VALUE`, and `OBS_STATUS`. | The dataset is consistent in structure, with migration data segmented by country of citizenship, time period, and observation value. The use of `OBS_STATUS` and `DECIMALS` suggests that the dataset is designed for consistent reporting. However, the missing values in `TIME_PERIOD` could affect the overall consistency in terms of time-based analysis. | Given the dataset is from the OECD's International Migration Database, it is likely to be credible. | The datasets include time periods ranging from 2019 to 2023, so they appear to be up-to-date in the context of our project. | 
 
-**D4 - Immigrants - citizenship (IT1,28_185_DF_DCIS_MIGRAZIONI_2,1.0):**
-
-| **Characteristic** | **Description**                                   | **Findings**                                                                                           |
-|---------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| **Accuracy**        | Data correctly represents real-world entities.    | CITIZENSHIP codes align with known conventions. Validation against ISO 3166 codes is recommended.     |
-| **Completeness**    | All required data is present.                     | CITIZENSHIP has 31 missing values; OBS_STATUS and NOTE_* columns are mostly empty and should be evaluated for necessity. |
-| **Consistency**     | Data is free from contradictions and uniform in format. | FREQ, SEX, and AGE columns show consistent formatting. A detailed review of value mappings (e.g., SEX values) would enhance understanding. |
-| **Credibility**     | Data is trusted and reliable.                     | Appears credible based on structure, but external verification of data sources (e.g., DATAFLOW) is recommended. |
-| **Currentness**     | Data is up-to-date.                               | TIME_PERIOD covers 2019–2023, reflecting recent data.                                                 |
-
-**D5 - Type of residence permit and citizenship (IT1,29_348_DF_DCIS_PERMSOGG1_1,1.0):**
-
-| **Characteristic** | **Description**                                   | **Findings**                                                                                           |
-|---------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| **Accuracy**        |     |       |
-| **Completeness**    |     |   |
-| **Consistency**     | |   |
-| **Credibility**     |   | |
-| **Currentness**     |  |   
-
-**D6 - NI2024-Stranieri_altri_dati_2:**
-During the initial analysis of the dataset, it was observed that the csv file had structural inconsistencies that rendered the calculation of completeness percentages infeasible. To address these challenges and enable accurate analysis, a preprocessing step was performed using a [python script](https://github.com/mjavadf/DeMi/blob/main/datasets/formattingCSV.py), [the formatted file](https://github.com/mjavadf/DeMi/blob/main/datasets/NoiItalia2024/output_file.csv) was then uploaded and analyzed. 
-
-| **Characteristic** | **Description**                                   | **Findings**                                                                                           |
-|---------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| **Accuracy**        |     |       |
-| **Completeness**    |     |   |
-| **Consistency**     | |   |
-| **Credibility**     |   | |
-| **Currentness**     |  |  
-
-**D7 - DCCV_OCCUPATIT1_12012025111941696:**
-
-| **Characteristic** | **Description**                                   | **Findings**                                                                                           |
-|---------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| **Accuracy**        |     |       |
-| **Completeness**    |     |   |
-| **Consistency**     |     |   |
-| **Credibility**     |     |   |
-| **Currentness**     |     |   |
-
-**D8 - DCCV_OCCUPATIT1_12012025110421591:**
-
-| **Characteristic** | **Description**                                   | **Findings**                                                                                           |
-|---------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| **Accuracy**        |     |       |
-| **Completeness**    |     |   |
-| **Consistency**     |     |   |
-| **Credibility**     |     |   |
-| **Currentness**     |     |   |
-
-**D9 - DCCV_OCCUPATIT1_12012025110704049:**
-
-| **Characteristic** | **Description**                                   | **Findings**                                                                                           |
-|---------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| **Accuracy**        |     |       |
-| **Completeness**    |     |   |
-| **Consistency**     |     |   |
-| **Credibility**     |     |   |
-| **Currentness**     |     |   |
-
-**D10 - DCCV_TAXOCCU1_12012025110922125:**
-
-| **Characteristic** | **Description**                                   | **Findings**                                                                                           |
-|---------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| **Accuracy**        |     |       |
-| **Completeness**    |     |   |
-| **Consistency**     |     |   |
-| **Credibility**     |     |   |
-| **Currentness**     |     |   |
-
-**D11 - DCCV_TAXDISOCCU1_12012025111208359:**
-
-| **Characteristic** | **Description**                                   | **Findings**                                                                                           |
-|---------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| **Accuracy**        |     |       |
-| **Completeness**    |     |   |
-| **Consistency**     |     |   |
-| **Credibility**     |     |   |
-| **Currentness**     |     |   |
-
-**D12 - DCIS_PERMSOGG1_12012025111539693:**
-
-| **Characteristic** | **Description**                                   | **Findings**                                                                                           |
-|---------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| **Accuracy**        |     |       |
-| **Completeness**    |     |   |
-| **Consistency**     |     |   |
-| **Credibility**     |     |   |
-| **Currentness**     |     |   |
-
-**D13 - OECD.ELS.IMD,DSD_MIG@DF_MIG,1.0+ITA..A.B11:**
-
-| **Characteristic** | **Description**                                   | **Findings**                                                                                           |
-|---------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| **Accuracy**        |     |       |
-| **Completeness**    |     |   |
-| **Consistency**     |     |   |
-| **Credibility**     |     |   |
-| **Currentness**     |     |   |
-
-**D14 - OECD.ELS.IMD,DSD_MIG_INT@DF_MIG_INT_TEMP,1.0+.A:**
-
-| **Characteristic** | **Description**                                   | **Findings**                                                                                           |
-|---------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| **Accuracy**        |     |       |
-| **Completeness**    |     |   |
-| **Consistency**     |     |   |
-| **Credibility**     |     |   |
-| **Currentness**     |     |   |
-
-**D15 - OECD.ELS.IMD,DSD_MIG_INT@DF_MIG_INT_PER,1.0+ITA.A...:**
-
-| **Characteristic** | **Description**                                   | **Findings**                                                                                           |
-|---------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| **Accuracy**        |     |       |
-| **Completeness**    |     |   |
-| **Consistency**     |     |   |
-| **Credibility**     |     |   |
-| **Currentness**     |     |   |
+### Column Descriptions:
+- **Completeness**: The extent to which all required data is present. The dataset may have missing values or incomplete fields that affect its usefulness.
+- **Accuracy**: The degree to which the data correctly represents the real-world values. In some cases, external validation is required to assess this fully.
+- **Coherence**: The extent to which the data is logically coherent and aligns with other related data. Missing or inconsistent data can reduce the overall coherence.
+- **Credibility**: The trustworthiness of the source of the data. Ideally, the dataset should come from a recognized and reliable source.
+- **Currentness**: The timeliness of the data. A dataset is more valuable when it includes up-to-date information.
 
 ### Completeness Algorithm Results
 
