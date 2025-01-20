@@ -278,3 +278,57 @@ D15 – This dataset focuses on standardized data regarding the inflows of perma
 
 **Mashed-up datasets**
 
+
+## Technical Analysis
+
+### Formats, metadata, provenance URI
+
+The following is a resume of our original datasets' formats, metadata, provenance, and URI. Regarding metadata, certain datasets are either devoid of metadata or only contain metadata that can be read by humans. However, using machine-readable metadata is strongly advised by Article 9 Comma 1 of regulation [EU 2019/1024](https://eur-lex.europa.eu/eli/dir/2019/1024/oj).
+
+#### D1, D2, D3, D4, D5
+**Format**: Excel, CSV, JSON, SDMX  
+**Metadata**: Provided in the SDMX format, which is machine-readable and can be used for automated processing.  
+**URI**s:  
+- [esloradati.istat.it](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_POPSTRRES1/IT1,29_7_DF_DCIS_POPSTRRES1_1,1.0)  
+- [esloradati.istat.it](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_POPSTRBIL1/IT1,29_316_DF_DCIS_POPSTRBIL1_1,1.0)  
+- [esloradati.istat.it](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_ACQCITIZ/IT1,29_849_DF_DCIS_ACQCITIZ_1,1.0)  
+- [esloradati.istat.it](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_MIGRATIONS/DCIS_MIGRAZIONI/IT1,28_185_DF_DCIS_MIGRAZIONI_2,1.0)  
+- [esloradati.istat.it](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_PERMSOGG1/IT1,29_348_DF_DCIS_PERMSOGG1_1,1.0)    
+
+**Provenance**:  
+- [esloradati.istat.it](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_POPSTRRES1/IT1,29_7_DF_DCIS_POPSTRRES1_1,1.0)  
+- [esloradati.istat.it](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_POPSTRBIL1/IT1,29_316_DF_DCIS_POPSTRBIL1_1,1.0)  
+- [esloradati.istat.it](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_ACQCITIZ/IT1,29_849_DF_DCIS_ACQCITIZ_1,1.0)  
+- [esloradati.istat.it](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_MIGRATIONS/DCIS_MIGRAZIONI/IT1,28_185_DF_DCIS_MIGRAZIONI_2,1.0)  
+- [esloradati.istat.it](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_PERMSOGG1/IT1,29_348_DF_DCIS_PERMSOGG1_1,1.0)  
+
+#### D6
+**Format**: CSV  
+**Metadata**: The dataset does not contain machine-readable metadata  
+**URI**: 
+- [Popolazione e società > Stranieri](https://noi-italia.istat.it/pagina.php?L=0&categoria=4&dove=ITA)  
+
+**Provence**: 
+- [Istat/lavoro](https://www.istat.it/it/lavoro-e-retribuzioni "https://www.istat.it/it/lavoro-e-retribuzioni")  
+- [Istat/demografia](https://demo.istat.it/ "https://demo.istat.it/")  
+- [Istat/stranieri](https://www.istat.it/it/archivio/stranieri "https://www.istat.it/it/archivio/stranieri")  
+- [Istat/immigrati](http://stra-dati.istat.it/ "http://stra-dati.istat.it/")  
+- [Istat/datawarehouse](http://dati.istat.it/ "http://dati.istat.it/")  
+- [Eurostat/labour market](https://ec.europa.eu/eurostat/web/lfs/statistics-illustrated "https://ec.europa.eu/eurostat/web/lfs/statistics-illustrated")  
+- [Eurostat/migrant integration](http://ec.europa.eu/eurostat/statistics-explained/index.php/Migrant_integration_statistics "http://ec.europa.eu/eurostat/statistics-explained/index.php/Migrant_integration_statistics")
+
+#### D7, D8, D9, D10, D11, D12
+(Not available at the time of writing)
+
+#### D13, D14, D15  
+**Format**: CSV, JSON, SDMX  
+**Metadata**: Provided in the SDMX format with Developer API.  
+**URI**:  
+- [International migration database, Inflows of foreign population](https://data-explorer.oecd.org/vis?lc=en&fs%5B0%5D=Topic%2C1%7CSociety%23SOC%23%7CMigration%23SOC_MIG%23&pg=0&fc=Topic&bp=true&snb=6&vw=ov&df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_MIG%40DF_MIG&df%5Bag%5D=OECD.ELS.IMD&df%5Bvs%5D=1.0&dq=ITA..A.B11....&pd=2019%2C&to%5BTIME_PERIOD%5D=false&ly%5Bcl%5D=TIME_PERIOD&ly%5Brs%5D=SEX&ly%5Brw%5D=CITIZENSHIP)  
+- [Standardised inflows of temporary migrants](https://data-explorer.oecd.org/vis?lc=en&fs%5B0%5D=Topic%2C1%7CSociety%23SOC%23%7CMigration%23SOC_MIG%23&pg=0&fc=Topic&bp=true&snb=6&df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_MIG_INT%40DF_MIG_INT_TEMP&df%5Bag%5D=OECD.ELS.IMD&df%5Bvs%5D=1.0&dq=.A...&lom=LASTNPERIODS&lo=10&to%5BTIME_PERIOD%5D=false&vw=tb)  
+- [Standardised inflows of permanent-type migrants](https://data-explorer.oecd.org/vis?df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_MIG_INT%40DF_MIG_INT_PER&df%5Bag%5D=OECD.ELS.IMD&df%5Bvs%5D=1.0&dq=.A...&lom=LASTNPERIODS&lo=10&to%5BTIME_PERIOD%5D=false)  
+
+**Provenance**:  
+- [International migration database, Inflows of foreign population](https://data-explorer.oecd.org/vis?lc=en&fs%5B0%5D=Topic%2C1%7CSociety%23SOC%23%7CMigration%23SOC_MIG%23&pg=0&fc=Topic&bp=true&snb=6&vw=ov&df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_MIG%40DF_MIG&df%5Bag%5D=OECD.ELS.IMD&df%5Bvs%5D=1.0&dq=ITA..A.B11....&pd=2019%2C&to%5BTIME_PERIOD%5D=false&ly%5Bcl%5D=TIME_PERIOD&ly%5Brs%5D=SEX&ly%5Brw%5D=CITIZENSHIP)  
+- [Standardised inflows of temporary migrants](https://data-explorer.oecd.org/vis?lc=en&fs%5B0%5D=Topic%2C1%7CSociety%23SOC%23%7CMigration%23SOC_MIG%23&pg=0&fc=Topic&bp=true&snb=6&df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_MIG_INT%40DF_MIG_INT_TEMP&df%5Bag%5D=OECD.ELS.IMD&df%5Bvs%5D=1.0&dq=.A...&lom=LASTNPERIODS&lo=10&to%5BTIME_PERIOD%5D=false&vw=tb)  
+- [Standardised inflows of permanent-type migrants](https://data-explorer.oecd.org/vis?df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_MIG_INT%40DF_MIG_INT_PER&df%5Bag%5D=OECD.ELS.IMD&df%5Bvs%5D=1.0&dq=.A...&lom=LASTNPERIODS&lo=10&to%5BTIME_PERIOD%5D=false)
