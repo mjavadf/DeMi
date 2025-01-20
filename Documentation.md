@@ -284,7 +284,22 @@ While IstatData (D1–D5), Not Italia 2024 (D6), and Immigrants.Stat (D7–D12) 
 **Mashed-up datasets**
 !!! TO BE DONE !!!
 
-## Technical Analysis
+# 6. Ethics analysis
+
+The process of ethical analysis of datasets is crucial for maintaining trust and safeguarding the interests of individuals whose data are involved, especially in sensitive areas like ours, demographics and migration.
+
+**Istat.Data, Noi Italia 2024, Immigrants.Stat**: All institutions of Istat comply with GDPR, highlighting its commitment to processing personal data transparently and responsibly. As the designated data controller, Istat ensures that data usage is strictly tied to public interest tasks and is legally justified. The data collected, including IP addresses and system details, are essential for operational purposes and statistical analysis, with a retention period that does not exceed ninety days to minimize privacy risks.
+For further details on their data protection policies, you can visit [Istat's Privacy Page](https://www.istat.it/privacy/).
+
+Istat's adherence to the highest quality standards is mandated both at a national and European level. It operates under the fundamental principles of official statistics set by the European Parliament and Council with [Regulation (EC) No. 223/2009](https://www.eumonitor.eu/9353000/1/j4nvhdlglbmvdzx_j9vvik7m1c3gyxp/vm4nk8maqayk#:~:text=(1)%20Regulation%20(EC),and%20dissemination%20of%20European%20statistics.). Moreover, these principles are echoed in the United Nations Economic Commission for Europe's regulations and further supported by the United Nations Statistical Commission. For further details on their data protection policies, you can visit [Istat's Activity Page.](https://www.istat.it/listituto/attivita/)
+
+**OECD**: 
+The OECD maintains personal data protection standards as part of its commitment to safeguarding individual privacy across its operations. Established under the framework of the [1980 OECD Privacy Guidelines](https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0188) and updated in 2013, these standards ensure that data handling within OECD follow principles of transparency, legality, and necessity. 
+The organization processes personal data to support various public interest missions, including managing staff-related benefits, [recruitment](https://www.oecd.org/en/about/careers/data-protection-notice-for-recruitment.html), and facilitating participation in policy-making through surveys like [PISA](https://www.oecd.org/en/about/programmes/pisa/pisa-data.html) and assessment platforms such as [PILA](https://pilaproject.org). 
+
+The [OECD Data Protection Rules](https://www.oecd.org/content/dam/oecd/en/about/data-protection/Decision-of-the-SG-on-Personal-Data-Protection.pdf), established by the Secretary-General's decision, mandate that all staff must protect personal data through transparent and appropriate measures. These rules apply to any personal data processing conducted by or on behalf of the OECD and are detailed in [Annex XII](https://www.oecd.org/content/dam/oecd/en/about/careers/Staff_Rules_and_Regulations_EN.pdf) of the Staff Rules and Regulations. They require personal data to be processed transparently and for legitimate purposes, ensuring data is adequate, relevant, up-to-date, and retained only as long as necessary. For further details on their data protection policies, you can visit [OECD's Personal data protection Page.](https://www.oecd.org/en/about/data-protection.html)
+
+# 7. Technical analysis
 
 ### Formats, metadata, provenance URI
 
@@ -337,25 +352,6 @@ The following is a resume of our original datasets' formats, metadata, provenanc
 - [International migration database, Inflows of foreign population](https://data-explorer.oecd.org/vis?lc=en&fs%5B0%5D=Topic%2C1%7CSociety%23SOC%23%7CMigration%23SOC_MIG%23&pg=0&fc=Topic&bp=true&snb=6&vw=ov&df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_MIG%40DF_MIG&df%5Bag%5D=OECD.ELS.IMD&df%5Bvs%5D=1.0&dq=ITA..A.B11....&pd=2019%2C&to%5BTIME_PERIOD%5D=false&ly%5Bcl%5D=TIME_PERIOD&ly%5Brs%5D=SEX&ly%5Brw%5D=CITIZENSHIP)  
 - [Standardised inflows of temporary migrants](https://data-explorer.oecd.org/vis?lc=en&fs%5B0%5D=Topic%2C1%7CSociety%23SOC%23%7CMigration%23SOC_MIG%23&pg=0&fc=Topic&bp=true&snb=6&df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_MIG_INT%40DF_MIG_INT_TEMP&df%5Bag%5D=OECD.ELS.IMD&df%5Bvs%5D=1.0&dq=.A...&lom=LASTNPERIODS&lo=10&to%5BTIME_PERIOD%5D=false&vw=tb)  
 - [Standardised inflows of permanent-type migrants](https://data-explorer.oecd.org/vis?df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_MIG_INT%40DF_MIG_INT_PER&df%5Bag%5D=OECD.ELS.IMD&df%5Bvs%5D=1.0&dq=.A...&lom=LASTNPERIODS&lo=10&to%5BTIME_PERIOD%5D=false)
-
-
-# 6. Ethics analysis
-
-The process of ethical analysis of datasets is crucial for maintaining trust and safeguarding the interests of individuals whose data are involved, especially in sensitive areas like ours, demographics and migration.
-
-**Istat.Data, Noi Italia 2024, Immigrants.Stat**: All institutions of Istat comply with GDPR, highlighting its commitment to processing personal data transparently and responsibly. As the designated data controller, Istat ensures that data usage is strictly tied to public interest tasks and is legally justified. The data collected, including IP addresses and system details, are essential for operational purposes and statistical analysis, with a retention period that does not exceed ninety days to minimize privacy risks.
-For further details on their data protection policies, you can visit [Istat's Privacy Page](https://www.istat.it/privacy/).
-
-Istat's adherence to the highest quality standards is mandated both at a national and European level. It operates under the fundamental principles of official statistics set by the European Parliament and Council with [Regulation (EC) No. 223/2009](https://www.eumonitor.eu/9353000/1/j4nvhdlglbmvdzx_j9vvik7m1c3gyxp/vm4nk8maqayk#:~:text=(1)%20Regulation%20(EC),and%20dissemination%20of%20European%20statistics.). Moreover, these principles are echoed in the United Nations Economic Commission for Europe's regulations and further supported by the United Nations Statistical Commission. For further details on their data protection policies, you can visit [Istat's Activity Page.](https://www.istat.it/listituto/attivita/)
-
-**OECD**: 
-The OECD maintains personal data protection standards as part of its commitment to safeguarding individual privacy across its operations. Established under the framework of the [1980 OECD Privacy Guidelines](https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0188) and updated in 2013, these standards ensure that data handling within OECD follow principles of transparency, legality, and necessity. 
-The organization processes personal data to support various public interest missions, including managing staff-related benefits, [recruitment](https://www.oecd.org/en/about/careers/data-protection-notice-for-recruitment.html), and facilitating participation in policy-making through surveys like [PISA](https://www.oecd.org/en/about/programmes/pisa/pisa-data.html) and assessment platforms such as [PILA](https://pilaproject.org). 
-
-The [OECD Data Protection Rules](https://www.oecd.org/content/dam/oecd/en/about/data-protection/Decision-of-the-SG-on-Personal-Data-Protection.pdf), established by the Secretary-General's decision, mandate that all staff must protect personal data through transparent and appropriate measures. These rules apply to any personal data processing conducted by or on behalf of the OECD and are detailed in [Annex XII](https://www.oecd.org/content/dam/oecd/en/about/careers/Staff_Rules_and_Regulations_EN.pdf) of the Staff Rules and Regulations. They require personal data to be processed transparently and for legitimate purposes, ensuring data is adequate, relevant, up-to-date, and retained only as long as necessary. For further details on their data protection policies, you can visit [OECD's Personal data protection Page.](https://www.oecd.org/en/about/data-protection.html)
-
-# 7. Technical analysis
-
 
 # 8. Sustainability of the update the datasets over time 
 
