@@ -285,7 +285,7 @@ While IstatData (D1–D5), Not Italia 2024 (D6), and Immigrants.Stat (D7–D12) 
 
 !!! TO BE DONE !!!
 
-# 6. Ethical analysis
+# 6. Ethics analysis
 
 The process of ethical analysis of datasets is crucial for maintaining trust and safeguarding the interests of individuals whose data are involved, especially in sensitive areas like ours, demographics and migration.
 
@@ -300,4 +300,15 @@ The organization processes personal data to support various public interest miss
 
 The [OECD Data Protection Rules](https://www.oecd.org/content/dam/oecd/en/about/data-protection/Decision-of-the-SG-on-Personal-Data-Protection.pdf), established by the Secretary-General's decision, mandate that all staff must protect personal data through transparent and appropriate measures. These rules apply to any personal data processing conducted by or on behalf of the OECD and are detailed in [Annex XII](https://www.oecd.org/content/dam/oecd/en/about/careers/Staff_Rules_and_Regulations_EN.pdf) of the Staff Rules and Regulations. They require personal data to be processed transparently and for legitimate purposes, ensuring data is adequate, relevant, up-to-date, and retained only as long as necessary. For further details on their data protection policies, you can visit [OECD's Personal data protection Page.](https://www.oecd.org/en/about/data-protection.html)
 
+# 7. Technical analysis
 
+
+# 8. Sustainability of the update the datasets over time 
+
+
+# 9. Visualization
+
+
+# 10. RDF assertion of metadata
+
+# 11. Conclusions
