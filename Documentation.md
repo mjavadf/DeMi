@@ -287,4 +287,17 @@ While IstatData (D1–D5), Not Italia 2024 (D6), and Immigrants.Stat (D7–D12) 
 
 # 6. Ethical analysis
 
+The process of ethical analysis of datasets is crucial for maintaining trust and safeguarding the interests of individuals whose data are involved, especially in sensitive areas like ours, demographics and migration.
+
+**Istat.Data, Noi Italia 2024, Immigrants.Stat**: All institutions of Istat comply with GDPR, highlighting its commitment to processing personal data transparently and responsibly. As the designated data controller, Istat ensures that data usage is strictly tied to public interest tasks and is legally justified. The data collected, including IP addresses and system details, are essential for operational purposes and statistical analysis, with a retention period that does not exceed ninety days to minimize privacy risks.
+For further details on their data protection policies, you can visit [Istat's Privacy Page](https://www.istat.it/privacy/).
+
+Istat's adherence to the highest quality standards is mandated both at a national and European level. It operates under the fundamental principles of official statistics set by the European Parliament and Council with [Regulation (EC) No. 223/2009](https://www.eumonitor.eu/9353000/1/j4nvhdlglbmvdzx_j9vvik7m1c3gyxp/vm4nk8maqayk#:~:text=(1)%20Regulation%20(EC),and%20dissemination%20of%20European%20statistics.). Moreover, these principles are echoed in the United Nations Economic Commission for Europe's regulations and further supported by the United Nations Statistical Commission. For further details on their data protection policies, you can visit [Istat's Activity Page.](https://www.istat.it/listituto/attivita/)
+
+**OECD**: 
+The OECD maintains personal data protection standards as part of its commitment to safeguarding individual privacy across its operations. Established under the framework of the [1980 OECD Privacy Guidelines](https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0188) and updated in 2013, these standards ensure that data handling within OECD follow principles of transparency, legality, and necessity. 
+The organization processes personal data to support various public interest missions, including managing staff-related benefits, [recruitment](https://www.oecd.org/en/about/careers/data-protection-notice-for-recruitment.html), and facilitating participation in policy-making through surveys like [PISA](https://www.oecd.org/en/about/programmes/pisa/pisa-data.html) and assessment platforms such as [PILA](https://pilaproject.org). 
+
+The [OECD Data Protection Rules](https://www.oecd.org/content/dam/oecd/en/about/data-protection/Decision-of-the-SG-on-Personal-Data-Protection.pdf), established by the Secretary-General's decision, mandate that all staff must protect personal data through transparent and appropriate measures. These rules apply to any personal data processing conducted by or on behalf of the OECD and are detailed in [Annex XII](https://www.oecd.org/content/dam/oecd/en/about/careers/Staff_Rules_and_Regulations_EN.pdf) of the Staff Rules and Regulations. They require personal data to be processed transparently and for legitimate purposes, ensuring data is adequate, relevant, up-to-date, and retained only as long as necessary. For further details on their data protection policies, you can visit [OECD's Personal data protection Page.](https://www.oecd.org/en/about/data-protection.html)
+
 
