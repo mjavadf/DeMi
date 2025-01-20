@@ -1,22 +1,20 @@
 # 1.	Introduction 
 
-DeMi (Decoding Migration) has been carried out for the exam "Open Access and Digital Ethics" as a part of the [Digital Humanities and Digital Knowledge course](https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge) at the University of Bologna. The two contributors to DeMi are:
-
-•	Ekaterina Krasnova,
-
-•	Mohammad Javad Farokhi Darani.
+In recent years, Italy has experienced a significant increase in immigration, impacting various sectors of society. [According to a 2024 report by La Repubblica](https://www.repubblica.it/cronaca/2024/02/13/news/immigrati_record_di_assunzioni_nel_2023_piu_stranieri_residenti_regolari_effetto_della_sanatoria_del_2020-422119125), the foreign resident population in Italy has grown notably, with a significant rise in the number of regular foreign workers. Additionally, [the number of foreign entrepreneurs has been on the rise](https://finanza.repubblica.it/News/2024/10/15/lavoro_da%C2%A0immigrati_l8_8_percento_del_pil_italiano_punte_in_agricoltura_16_4percento_e_costruzioni_15_1percento_-147/), with 776,000 immigrant entrepreneurs recorded in 2023, accounting for 10.4% of the total. 
+ 
+This demographic shift underscores the importance of understanding migration patterns and their implications. In response, DeMi (Decoding Migration) has been carried out for the exam "Open Access and Digital Ethics" as a part of the [Digital Humanities and Digital Knowledge course](https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge) at the University of Bologna. The two contributors to DeMi are:
+* Ekaterina Krasnova,
+*	Mohammad Javad Farokhi Darani.
 
 DeMi aims to study and analyze migration trends and demographics in Italy, focusing on two primary research questions:
+* What are the main countries of origin of immigrants in Italy, and how have these trends evolved over the last five years?
+* What are the demographic profiles of immigrants in Italy, including age, gender, and education level?
 
-•	What are the main countries of origin of immigrants in Italy, and how have these trends evolved over the last five years?
-
-•	What are the demographic profiles of immigrants in Italy, including age, gender, and education level?
-
-The background of this project stems from the increasing significance of migration as a global and local phenomenon, particularly within Italy. Migration impacts various aspects of society, such as labor markets, education, and public policy. The idea behind DeMi is to harness open datasets and digital tools to analyze migration trends, offering insights that enhance understanding of migration dynamics and guide policymaking.
+The background of this project stems from the increasing significance of migration as local phenomenon, particularly within Italy. Migration impacts various aspects of society, such as labor markets, education, and public policy. The idea behind DeMi is to harness open datasets and digital tools to analyze migration trends, offering insights that enhance understanding of migration dynamics and guide policymaking.
 
 To achieve its objectives, DeMi utilizes a collection of open datasets that have been analyzed from legal, ethical, and technical perspectives. The datasets were processed to create mashed-up data compliant with the principles of Linked Open Data, incorporating RDF models aligned with the [DCAT-AP](https://www.w3.org/TR/vocab-dcat-3/) ontology. This approach enabled the generation of high-quality, [5-star Linked Open Data](https://www.w3.org/community/webize/2014/01/17/what-is-5-star-linked-data/), which is freely downloadable and reusable.
 
-The results of this project are presented through an interactive and user-friendly website, supported by clear documentation. Additionally, all scripts and derived datasets are shared on the project's GitHub repository under an open license, ensuring that the research is transparent, repeatable, and accessible to a broad audience.
+The results of this project are presented through an interactive and user-friendly website, supported by documentation. Additionally, all scripts and derived datasets are shared on the project's GitHub repository under an open license, ensuring that the research is transparent, repeatable, and accessible to a broad audience.
 
 # 2.	Scenario
 
@@ -138,11 +136,11 @@ During the initial analysis of D6, we noticed that the csv file had structural i
 | **D13, D14, D15** | The datasets provide migration statistics, including values such as `OBS_VALUE`, which represent migration figures by citizenship. | The datasets contain several columns with missing values, such as `TIME_PERIOD`, `OBS_VALUE`, and `OBS_STATUS`. | The dataset is consistent in structure, with migration data segmented by country of citizenship, time period, and observation value. The use of `OBS_STATUS` and `DECIMALS` suggests that the dataset is designed for consistent reporting. However, the missing values in `TIME_PERIOD` could affect the overall consistency in terms of time-based analysis. | Given the dataset is from the OECD's International Migration Database, it is likely to be credible. | The datasets include time periods ranging from 2019 to 2023, so they appear to be up-to-date in the context of our project. | 
 
 ### Column Descriptions:
-- **Completeness**: The extent to which all required data is present. The dataset may have missing values or incomplete fields that affect its usefulness.
-- **Accuracy**: The degree to which the data correctly represents the real-world values. In some cases, external validation is required to assess this fully.
-- **Coherence**: The extent to which the data is logically coherent and aligns with other related data. Missing or inconsistent data can reduce the overall coherence.
-- **Credibility**: The trustworthiness of the source of the data. Ideally, the dataset should come from a recognized and reliable source.
-- **Currentness**: The timeliness of the data. A dataset is more valuable when it includes up-to-date information.
+* **Completeness**: The extent to which all required data is present. The dataset may have missing values or incomplete fields that affect its usefulness.
+* **Accuracy**: The degree to which the data correctly represents the real-world values. In some cases, external validation is required to assess this fully.
+* **Coherence**: The extent to which the data is logically coherent and aligns with other related data. Missing or inconsistent data can reduce the overall coherence.
+* **Credibility**: The trustworthiness of the source of the data. Ideally, the dataset should come from a recognized and reliable source.
+* **Currentness**: The timeliness of the data. A dataset is more valuable when it includes up-to-date information.
 
 ### Completeness Algorithm Results
 
@@ -165,13 +163,6 @@ The completeness of each dataset was assessed by identifying null values. Null v
 | **D13**     | 271,950          | 18,223          | 93.30%               |
 | **D14**     | 41,472           | 3,491           | 91.58%               |
 | **D15**     | 41,184           | 3,447           | 91.63%               |
-
-### Notes
-- **D6** has a perfect completeness rate of 100%, with no null values detected.
-- **D13** shows the highest completeness percentage at 93.30%.
-- **D3**, **D4**, and **D5** have lower completeness percentages (around 47-48%), indicating that a significant portion of their data is missing.
-- The completeness percentage varies widely across datasets, with values ranging from 47.62% to 100%. 
-
 
 # 5. Legal analysis
 ### Original Datasets
@@ -236,45 +227,64 @@ Below is a quick overview of the licensing terms for each dataset used in this p
 
 | **Dataset** | **License** | 
 |-------------|------------------|
-| **D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12**      | [CC-BY 3.0 IT](https://creativecommons.org/licenses/by/3.0/it/deed.en) |
+| **D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12**      | [ Creative Commons License – Attribution – 4.0](https://creativecommons.org/licenses/by/4.0/deed.en) |
 | **D13, D14, D15**  | [OECD’s Terms and Conditions*](https://www.oecd.org/en/about/terms-conditions.html) |
 
-Most of the data (D1–D12) is available under the Creative Commons Attribution 3.0 Italy ([CC-BY 3.0 IT](https://creativecommons.org/licenses/by/3.0/it/deed.en)) license, which permits sharing, adapting, and commercial use as long as you give appropriate credit and do not impose further restrictions. A few datasets (D13–D15) fall under the [OECD’s Terms and Conditions*](https://www.oecd.org/en/about/terms-conditions.html), meaning they can generally be used for non-commercial purposes with source attribution, but commercial use or wider distribution may require prior written permission from the OECD. This distinction ensures proper usage and compliance with each provider’s requirements.
+Most of the data (D1–D12) is available under the [ Creative Commons License – Attribution – 4.0](https://creativecommons.org/licenses/by/4.0/deed.en) license, which permits to:
+
+* Share — copy and redistribute the material in any medium or format for any purpose, even commercially
+* Adapt — remix, transform, and build upon the material for any purpose, even commercially
+
+Under the following terms:
+* Attribution — You must give appropriate credit , provide a link to the license, and indicate if changes were made . You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+* No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+* No permission is necessary to hyperlink to pages on this website.
+Images, logos (including Istat logo), trademarks and other content owned by third parties belong to their respective owners and cannot be reproduced without their consent.
+
+A few datasets (D13–D15) fall under the [OECD’s Terms and Conditions*](https://www.oecd.org/en/about/terms-conditions.html), meaning they can generally be used for non-commercial purposes with source attribution, but commercial use or wider distribution may require prior written permission from the OECD. 
+
+### Clarification on Licensing for Istat Portals
+While IstatData (D1–D5), Not Italia 2024 (D6), and Immigrants.Stat (D7–D12) do not explicitly display licensing information on their respective pages, these portals are known to be part of Istat. Based on this, we infer that the [Creative Commons Attribution 4.0 license](https://creativecommons.org/licenses/by/4.0/deed.en) applies to all datasets from these sources. Additionally, it's important to note that [Istat's datasets](https://www.istat.it/en/data/datasets/) are typically released in a preliminary form immediately following survey completions, and are not issued at regular intervals. 
 
 ### Purpose 
 
 **Primary datasets**
 
-D1 – This dataset provides official demographic information about foreign residents in Italy starting 1st January. 
+**D1** – This dataset provides official demographic information about foreign residents in Italy starting 1st January. 
 
-D2 –  This dataset is designed to track various demographic indicators related to the foreign population in Italy, such as census population counts at the start of each year, live births, deaths, and migration figures etc.
+**D2** –  This dataset is designed to track various demographic indicators related to the foreign population in Italy, such as census population counts at the start of each year, live births, deaths, and migration figures etc.
 
-D3 – This dataset analyzes and reports on specific processes related to citizenship, by different age groups in Italy.
+**D3** – This dataset analyzes and reports on specific processes related to citizenship, by different age groups in Italy.
 
-D4 – This dataset provides statistics on immigrants in Italy, categorized by their initial citizenship. 
+**D4** – This dataset provides statistics on immigrants in Italy, categorized by their initial citizenship. 
 
-D5 – This dataset appears to focus on immigrants’ citizenship in Italy with a particular emphasis on their types of residence permits. 
+**D5** – This dataset appears to focus on immigrants’ citizenship in Italy with a particular emphasis on their types of residence permits. 
 
-D6 – This dataset is designed to provide a comparative analysis of the educational attainment levels across domestic and foreign populations within Italy, specifically targeting the working-age group of 15 to 64 years.
+**D6** – This dataset is designed to provide a comparative analysis of the educational attainment levels across domestic and foreign populations within Italy, specifically targeting the working-age group of 15 to 64 years.
 
-D7 – This dataset provides detailed statistics on employment figures (in thousands) segmented by the highest level of education attained among foreigners. 
+**D7** – This dataset provides detailed statistics on employment figures (in thousands) segmented by the highest level of education attained among foreigners. 
 
-D8 – This dataset includes employment data divided by gender and whether the employment is full-time or part-time for foreigners.
+**D8** – This dataset includes employment data divided by gender and whether the employment is full-time or part-time for foreigners.
 
-D9 – Focused on the employment of foreigners by gender at a sub-national level, this dataset tracks the number of employed foreign men and women across different regions, highlighting gender disparities or balances in the job market.
+**D9** – Focused on the employment of foreigners by gender at a sub-national level, this dataset tracks the number of employed foreign men and women across different regions, highlighting gender disparities or balances in the job market.
 
-D10 – This dataset details the employment rates of foreigners, categorized by both gender and the highest level of education attained. It provides this data at a sub-national level, useful for identifying how education and gender impact employment rates among foreigners in different areas.
+**D10** – This dataset details the employment rates of foreigners, categorized by both gender and the highest level of education attained. It provides this data at a sub-national level, useful for identifying how education and gender impact employment rates among foreigners in different areas.
 
-D11 – Offering a detailed look at unemployment rates among foreigners based on their educational qualifications, this dataset covers various regions, helping to pinpoint educational or skill gaps that affect employability at the sub-national level.
+**D11** – Offering a detailed look at unemployment rates among foreigners based on their educational qualifications, this dataset covers various regions, helping to pinpoint educational or skill gaps that affect employability at the sub-national level.
 
-D12 – This dataset provides annual data on the inflow of non-EU citizens granted residence permits for reasons such as asylum and humanitarian grounds.
+**D12** – This dataset provides annual data on the inflow of non-EU citizens granted residence permits for reasons such as asylum and humanitarian grounds.
 
-D13 – This dataset captures the annual volume of non-Italian nationals entering the country for the purpose of residency.
+**D13** – This dataset captures the annual volume of non-Italian nationals entering the country for the purpose of residency.
 
-D14 – This dataset tracks the number of individuals entering a country on a temporary basis, which might include workers, students, or those on short-term visas.
+**D14** – This dataset tracks the number of individuals entering a country on a temporary basis, which might include workers, students, or those on short-term visas.
 
-D15 – This dataset focuses on standardized data regarding the inflows of permanent-type migrants into Italy, detailing migration flows by category. It captures the number of individuals entering the country with the intention of long-term or permanent residency.
+**D15** – This dataset focuses on standardized data regarding the inflows of permanent-type migrants into Italy, detailing migration flows by category. It captures the number of individuals entering the country with the intention of long-term or permanent residency.
 
 
 **Mashed-up datasets**
+
+!!! TO BE DONE !!!
+
+# 6. Ethical analysis
+
 
