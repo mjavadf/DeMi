@@ -355,10 +355,14 @@ The following is a resume of our original datasets' formats, metadata, provenanc
 
 # 8. Sustainability of the update the datasets over time 
 
+This catalogue was created as part of "Open Access and Digital Ethics" course at the [University of Bologna](https://www.unibo.it) and is not actively maintained by our team; however, the underlying datasets — focused on migration in Italy and sourced from ISTAT and OECD — are regularly updated by their respective institutions. 
+Our automated scripts, which remain available and licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1), can be rerun on new files whenever a dataset is updated. 
+Sustainability is a collective responsibility. We encourage anyone who notices an updated input file to notify us so we can use our automated process to update the catalogue accordingly. Contributions and updated files submitted via our [GitHub project](https://github.com/mjavadf/DeMi/tree/main) will be reviewed and added if they meet our standards, ensuring that the catalogue remains a relevant and evolving resource.
 
 # 9. Visualization
 
 
 # 10. RDF assertion of metadata
+
 
 # 11. Conclusions
