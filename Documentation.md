@@ -100,8 +100,16 @@ The OECD (Organisation for Economic Co-operation and Development) is a forum and
 
 ### 3.2. Mashed-up dataset
 
-!!! TO BE DONE !!!
+In order to manage the mash-up of different datasets with different licenses, we followed the [Guidelines for Open Data provided by the EU.](https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1561563110433&uri=CELEX:32019L1024)
+The datasets were then merged and processed into:
 
+| Primary datasets  | Mashed-up dataset | URL | 
+| ------------- | ------------- | ------------- |
+| D1, D2, D3, D4, D5, D12 | DeMi: Demographic and Citizenship Trends | |
+| D13, D14, D15 | DeMi: Migration Flow and Entry Types | |
+| D6, D7, D8, D9, D10, D11 | DeMi: Socioeconomic and Labor Market | |
+
+You can see the result of mashed-up datasets in Catalogue Page.  
 
 # 4. Quality analysis of the datasets
 To conduct the quality analysis, we adhered to the [ISO/IEC 25012 standard](https://iso25000.com/index.php/en/iso-25000-standards/iso-25012), which outlines 15 key data quality characteristics, as shown in the picture below. 
@@ -220,17 +228,17 @@ The fields with an asterisk (*) have to be further explained in the notes below.
 
 1.7 : According to [OECD Privacy Policy](https://www.oecd.org/en/about/privacy.html), personal data is collected directly via user input and indirectly through cookies for personalization. However, the policy lacks clarity on user consent and GDPR compliance, requiring further verification of adherence to privacy regulations.
 
-
-
 ### Licenses
 Below is a quick overview of the licensing terms for each dataset used in this project.
 
+**Primary datasets**
+
 | **Dataset** | **License** | 
 |-------------|------------------|
-| **D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12**      | [ Creative Commons License – Attribution – 4.0](https://creativecommons.org/licenses/by/4.0/deed.en) |
+| **D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12**      | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en) |
 | **D13, D14, D15**  | [OECD’s Terms and Conditions*](https://www.oecd.org/en/about/terms-conditions.html) |
 
-Most of the data (D1–D12) is available under the [ Creative Commons License – Attribution – 4.0](https://creativecommons.org/licenses/by/4.0/deed.en) license, which permits to:
+Most of the data (D1–D12) is available under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en) license, which permits to:
 
 * Share — copy and redistribute the material in any medium or format for any purpose, even commercially
 * Adapt — remix, transform, and build upon the material for any purpose, even commercially
@@ -243,46 +251,69 @@ Images, logos (including Istat logo), trademarks and other content owned by thir
 
 A few datasets (D13–D15) fall under the [OECD’s Terms and Conditions*](https://www.oecd.org/en/about/terms-conditions.html), meaning they can generally be used for non-commercial purposes with source attribution, but commercial use or wider distribution may require prior written permission from the OECD. 
 
+**Mashed-up datasets**
+| **Dataset** | **License** | 
+|-------------|------------------|
+| **DeMi: Demographic and Citizenship Trends**      | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) |
+| **DeMi: Migration Flow and Entry Types**      | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) |
+| **DeMi: Socioeconomic and Labor Market**      | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) |
+
+With [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en), you are free to:
+
+* Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+* Adapt — remix, transform, and build upon the material for any purpose, even commercially.
+The licensor cannot revoke these freedoms as long as you follow the license terms.
+
+Under the following terms:
+* Attribution — You must give appropriate credit , provide a link to the license, and indicate if changes were made . You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+* ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+* No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+
 ### Clarification on Licensing for Istat Portals
-While IstatData (D1–D5), Not Italia 2024 (D6), and Immigrants.Stat (D7–D12) do not explicitly display licensing information on their respective pages, these portals are known to be part of Istat. Based on this, we infer that the [Creative Commons Attribution 4.0 license](https://creativecommons.org/licenses/by/4.0/deed.en) applies to all datasets from these sources. Additionally, it's important to note that [Istat's datasets](https://www.istat.it/en/data/datasets/) are typically released in a preliminary form immediately following survey completions, and are not issued at regular intervals. 
+While IstatData (D1–D5), Not Italia 2024 (D6), and Immigrants.Stat (D7–D12) do not explicitly display licensing information on their respective pages, these portals are known to be part of Istat. Based on this, we infer that the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en) applies to all datasets from these sources. Additionally, it's important to note that [Istat's datasets](https://www.istat.it/en/data/datasets/) are typically released in a preliminary form immediately following survey completions, and are not issued at regular intervals. 
 
 ### Purpose 
 
 **Primary datasets**
 
-**D1** – This dataset provides official demographic information about foreign residents in Italy starting 1st January. 
+**D1** – Official demographic data of foreign residents in Italy as of January 1st each year.
 
-**D2** –  This dataset is designed to track various demographic indicators related to the foreign population in Italy, such as census population counts at the start of each year, live births, deaths, and migration figures etc.
+**D2** – Tracks various demographic indicators such as census population counts, live births, deaths, and migration statistics.
 
-**D3** – This dataset analyzes and reports on specific processes related to citizenship, by different age groups in Italy.
+**D3** – Analyzes citizenship acquisition processes, categorized by age groups.
 
-**D4** – This dataset provides statistics on immigrants in Italy, categorized by their initial citizenship. 
+**D4** – Provides statistics on immigrants in Italy, classified by their original citizenship.
 
-**D5** – This dataset appears to focus on immigrants’ citizenship in Italy with a particular emphasis on their types of residence permits. 
+**D5** – Focuses on immigrants' citizenship status with an emphasis on different types of residence permits.
 
-**D6** – This dataset is designed to provide a comparative analysis of the educational attainment levels across domestic and foreign populations within Italy, specifically targeting the working-age group of 15 to 64 years.
+**D6** – Comparative analysis of educational attainment levels between domestic and foreign populations, specifically for the working-age group (15-64 years).
 
-**D7** – This dataset provides detailed statistics on employment figures (in thousands) segmented by the highest level of education attained among foreigners. 
+**D7** – Employment statistics segmented by foreigners' highest educational attainment.
 
-**D8** – This dataset includes employment data divided by gender and whether the employment is full-time or part-time for foreigners.
+**D8** – Employment data categorized by gender and employment type (full-time or part-time).
 
-**D9** – Focused on the employment of foreigners by gender at a sub-national level, this dataset tracks the number of employed foreign men and women across different regions, highlighting gender disparities or balances in the job market.
+**D9** – Employment of foreign men and women at a regional level, highlighting gender disparities in the labor market.
 
-**D10** – This dataset details the employment rates of foreigners, categorized by both gender and the highest level of education attained. It provides this data at a sub-national level, useful for identifying how education and gender impact employment rates among foreigners in different areas.
+**D10** – Employment rates among foreigners based on education and gender at a sub-national level.
 
-**D11** – Offering a detailed look at unemployment rates among foreigners based on their educational qualifications, this dataset covers various regions, helping to pinpoint educational or skill gaps that affect employability at the sub-national level.
+**D11** – Unemployment rates among foreigners categorized by educational qualifications and regional distribution, identifying skill gaps.
 
-**D12** – This dataset provides annual data on the inflow of non-EU citizens granted residence permits for reasons such as asylum and humanitarian grounds.
+**D12** – Annual data on the inflow of non-EU citizens granted residence permits for asylum, humanitarian, or other reasons.
 
-**D13** – This dataset captures the annual volume of non-Italian nationals entering the country for the purpose of residency.
+**D13** – Annual volume of non-Italian nationals entering Italy for residency purposes.
 
-**D14** – This dataset tracks the number of individuals entering a country on a temporary basis, which might include workers, students, or those on short-term visas.
+**D14** – Tracks temporary migration, including workers, students, and short-term visa holders.
 
-**D15** – This dataset focuses on standardized data regarding the inflows of permanent-type migrants into Italy, detailing migration flows by category. It captures the number of individuals entering the country with the intention of long-term or permanent residency.
-
+**D15** – Standardized data on the inflows of permanent-type migrants, detailing migration flows by category and intention of long-term residency.
 
 **Mashed-up datasets**
-!!! TO BE DONE !!!
+
+**DeMi: Demographic and Citizenship Trends** – Examines the evolution of foreign residents, citizenship acquisition trends, and migration balance over time.
+
+**DeMi: Migration Flow and Entry Types** – Analyzes migration flows into Italy, distinguishing between temporary and permanent migration categories.
+
+**DeMi: Socioeconomic and Labor Market** – Explores employment and education trends among immigrants, with a focus on gender, education level, and employment type.
+
 
 # 6. Ethics analysis
 
@@ -356,7 +387,7 @@ The following is a resume of our original datasets' formats, metadata, provenanc
 # 8. Sustainability of the update the datasets over time 
 
 This catalogue was created as part of "Open Access and Digital Ethics" course at the [University of Bologna](https://www.unibo.it) and is not actively maintained by our team; however, the underlying datasets — focused on migration in Italy and sourced from ISTAT and OECD — are regularly updated by their respective institutions. 
-Our automated scripts, which remain available and licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1), can be rerun on new files whenever a dataset is updated. 
+Our automated scripts, which remain available and licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en), can be rerun on new files whenever a dataset is updated. 
 Sustainability is a collective responsibility. We encourage anyone who notices an updated input file to notify us so we can use our automated process to update the catalogue accordingly. Contributions and updated files submitted via our [GitHub project](https://github.com/mjavadf/DeMi/tree/main) will be reviewed and added if they meet our standards, ensuring that the catalogue remains a relevant and evolving resource.
 
 # 9. Visualization
