@@ -8,39 +8,23 @@
     3.1 [Original Datasets](#s-3-1)  
     3.2 [Mashed-up Datasets](#s-3-2) 
         
-4.  **[Quality Analysis of the Datasets](#quality-analysis)**  
-    4.1 ISO/IEC 25012 Standard Overview  
-    4.2 Inherent Data Quality Characteristics  
-    4.3 Completeness Algorithm and Results  
-    4.4 Dataset-Specific Quality Analysis
+4.  **[Quality Analysis of the Datasets](#quality-analysis)**
     
-5.  **Legal Analysis**  
-    5.1 Privacy Issues  
-    5.2 Intellectual Property Rights  
-    5.3 Licensing  
-    5.4 Limitations on Public Access  
-    5.5 Economic Conditions  
-    5.6 Temporary Aspects
+5.  **[Legal Analysis](#legal-analysis)**  
     
-6.  **Ethics Analysis**  
-    6.1 Istat’s Ethical Compliance  
-    6.2 OECD’s Ethical Compliance
+6.  **[Ethics Analysis](#ethics-analysis)**  
     
-7.  **Technical Analysis**  
-    7.1 Formats, Metadata, and Provenance URIs  
-    7.2 Dataset-Specific Technical Details
+7.  **[Technical Analysis](#technical-analysis)**  
     
-8.  **Sustainability of Dataset Updates Over Time**  
-    8.1 Maintenance and Updates  
-    8.2 Community Contributions
+8.  **[Sustainability of Dataset Updates Over Time](#sustainability)**  
     
-9.  **Visualization**  
+9.  **[Visualization](#visualization)**  
     _(To be filled with content)_
     
-10.  **RDF Assertion of Metadata**  
+10.  **[RDF Assertion of Metadata](#rdf)**  
     _(To be filled with content)_
     
-11.  **Conclusions**
+11.  **[Conclusions](#conclusions)**
 
 # 1.	Introduction <a name="introduction"></a>
 
@@ -208,7 +192,7 @@ The completeness of each dataset was assessed by identifying null values. Null v
 ### Original Datasets
 The original datasets used to cover the different themes of this project are listed in [Section 3.1. ](#section-3-1)
 
-### Legal checklist
+### Legal checklist<a name="legal-analysis"></a>
 The fields with an asterisk (*) have to be further explained in the notes below.
 
 | | To check | D1, D2, D3, D4, D5 | D6 | D7, D8, D9, D10, D11, D12 | D13, D14, D15 |
@@ -347,7 +331,7 @@ While IstatData (D1–D5), Not Italia 2024 (D6), and Immigrants.Stat (D7–D12) 
 **DeMi: Socioeconomic and Labor Market** – Explores employment and education trends among immigrants, with a focus on gender, education level, and employment type.
 
 
-# 6. Ethics analysis
+# 6. Ethics analysis<a name="ethics-analysis"></a>
 
 The process of ethical analysis of datasets is crucial for maintaining trust and safeguarding the interests of individuals whose data are involved, especially in sensitive areas like ours, demographics and migration.
 
@@ -362,7 +346,7 @@ The organization processes personal data to support various public interest miss
 
 The [OECD Data Protection Rules](https://www.oecd.org/content/dam/oecd/en/about/data-protection/Decision-of-the-SG-on-Personal-Data-Protection.pdf), established by the Secretary-General's decision, mandate that all staff must protect personal data through transparent and appropriate measures. These rules apply to any personal data processing conducted by or on behalf of the OECD and are detailed in [Annex XII](https://www.oecd.org/content/dam/oecd/en/about/careers/Staff_Rules_and_Regulations_EN.pdf) of the Staff Rules and Regulations. They require personal data to be processed transparently and for legitimate purposes, ensuring data is adequate, relevant, up-to-date, and retained only as long as necessary. For further details on their data protection policies, you can visit [OECD's Personal data protection Page.](https://www.oecd.org/en/about/data-protection.html)
 
-# 7. Technical analysis
+# 7. Technical analysis<a name="technical-analysis"></a>
 
 ### Formats, metadata, provenance URI
 
@@ -416,16 +400,16 @@ The following is a resume of our original datasets' formats, metadata, provenanc
 - [Standardised inflows of temporary migrants](https://data-explorer.oecd.org/vis?lc=en&fs%5B0%5D=Topic%2C1%7CSociety%23SOC%23%7CMigration%23SOC_MIG%23&pg=0&fc=Topic&bp=true&snb=6&df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_MIG_INT%40DF_MIG_INT_TEMP&df%5Bag%5D=OECD.ELS.IMD&df%5Bvs%5D=1.0&dq=.A...&lom=LASTNPERIODS&lo=10&to%5BTIME_PERIOD%5D=false&vw=tb)  
 - [Standardised inflows of permanent-type migrants](https://data-explorer.oecd.org/vis?df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_MIG_INT%40DF_MIG_INT_PER&df%5Bag%5D=OECD.ELS.IMD&df%5Bvs%5D=1.0&dq=.A...&lom=LASTNPERIODS&lo=10&to%5BTIME_PERIOD%5D=false)
 
-# 8. Sustainability of the update the datasets over time 
+# 8. Sustainability of the update the datasets over time <a name="sustainability"></a>
 
 This catalogue was created as part of "Open Access and Digital Ethics" course at the [University of Bologna](https://www.unibo.it) and is not actively maintained by our team; however, the underlying datasets — focused on migration in Italy and sourced from ISTAT and OECD — are regularly updated by their respective institutions. 
 Our automated scripts, which remain available and licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en), can be rerun on new files whenever a dataset is updated. 
 Sustainability is a collective responsibility. We encourage anyone who notices an updated input file to notify us so we can use our automated process to update the catalogue accordingly. Contributions and updated files submitted via our [GitHub project](https://github.com/mjavadf/DeMi/tree/main) will be reviewed and added if they meet our standards, ensuring that the catalogue remains a relevant and evolving resource.
 
-# 9. Visualization
+# 9. Visualization <a name="visualization"></a>
 
 
-# 10. RDF assertion of metadata
+# 10. RDF assertion of metadata <a name="rdf"></a>
 
 
-# 11. Conclusions
+# 11. Conclusions <a name="conclusions"></a>
