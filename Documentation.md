@@ -1,4 +1,48 @@
-# 1.	Introduction 
+# Table of Contents
+
+1.  **[Introduction](#introduction)**
+    
+2.  **[Scenario](#scenario)**
+    
+3.  **[Original Dataset and Mashed-up Dataset](#datasets)**  
+    3.1 [Original Datasets](#s-3-1)  
+    3.2 [Mashed-up Datasets](#s-3-2) 
+        
+4.  **[Quality Analysis of the Datasets](#quality-analysis)**  
+    4.1 ISO/IEC 25012 Standard Overview  
+    4.2 Inherent Data Quality Characteristics  
+    4.3 Completeness Algorithm and Results  
+    4.4 Dataset-Specific Quality Analysis
+    
+5.  **Legal Analysis**  
+    5.1 Privacy Issues  
+    5.2 Intellectual Property Rights  
+    5.3 Licensing  
+    5.4 Limitations on Public Access  
+    5.5 Economic Conditions  
+    5.6 Temporary Aspects
+    
+6.  **Ethics Analysis**  
+    6.1 Istat’s Ethical Compliance  
+    6.2 OECD’s Ethical Compliance
+    
+7.  **Technical Analysis**  
+    7.1 Formats, Metadata, and Provenance URIs  
+    7.2 Dataset-Specific Technical Details
+    
+8.  **Sustainability of Dataset Updates Over Time**  
+    8.1 Maintenance and Updates  
+    8.2 Community Contributions
+    
+9.  **Visualization**  
+    _(To be filled with content)_
+    
+10.  **RDF Assertion of Metadata**  
+    _(To be filled with content)_
+    
+11.  **Conclusions**
+
+# 1.	Introduction <a name="introduction"></a>
 
 In recent years, Italy has experienced a significant increase in immigration, impacting various sectors of society. [According to a 2024 report by La Repubblica](https://www.repubblica.it/cronaca/2024/02/13/news/immigrati_record_di_assunzioni_nel_2023_piu_stranieri_residenti_regolari_effetto_della_sanatoria_del_2020-422119125), the foreign resident population in Italy has grown notably, with a significant rise in the number of regular foreign workers. Additionally, [the number of foreign entrepreneurs has been on the rise](https://finanza.repubblica.it/News/2024/10/15/lavoro_da%C2%A0immigrati_l8_8_percento_del_pil_italiano_punte_in_agricoltura_16_4percento_e_costruzioni_15_1percento_-147/), with 776,000 immigrant entrepreneurs recorded in 2023, accounting for 10.4% of the total. 
  
@@ -16,7 +60,7 @@ To achieve its objectives, DeMi utilizes a collection of open datasets that have
 
 The results of this project are presented through an interactive and user-friendly website, supported by documentation. Additionally, all scripts and derived datasets are shared on the project's GitHub repository under an open license, ensuring that the research is transparent, repeatable, and accessible to a broad audience.
 
-# 2.	Scenario
+# 2.	Scenario <a name="scenario"></a>
 
 DeMi seeks to provide valuable insights into the trends and profiles of immigrants in Italy, helping to address knowledge gaps and promote informed decision-making. By examining the main countries of origin of immigrants, along with their demographic profiles, our research aims to highlight patterns that are often underrepresented or misunderstood.
 
@@ -26,9 +70,9 @@ However, despite its broad utility, the project encountered significant challeng
 
 Through these efforts, DeMi aims to empower a wide range of stakeholders by providing open, accessible, and reliable data. By presenting migration trends and insights in an understandable and meaningful way, our project contributes to a more informed and empathetic discourse on migration, supporting the development of more inclusive societies.
 
-# 3.	Original dataset and mashed-up dataset
+# 3.	Original dataset and mashed-up dataset <a name="datasets"></a>
 
-### 3.1. Original datasets
+### 3.1. Original datasets <a name="s-3-1"></a>
 Here there is a description for each of original datasets:
 
 **IstatData**
@@ -98,7 +142,7 @@ The OECD (Organisation for Economic Co-operation and Development) is a forum and
 | D14  | [data-explorer.oecd.org](https://data-explorer.oecd.org/vis?lc=en&fs%5B0%5D=Topic%2C1%7CSociety%23SOC%23%7CMigration%23SOC_MIG%23&pg=0&fc=Topic&bp=true&snb=6&df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_MIG_INT%40DF_MIG_INT_TEMP&df%5Bag%5D=OECD.ELS.IMD&df%5Bvs%5D=1.0&dq=.A...&lom=LASTNPERIODS&lo=10&to%5BTIME_PERIOD%5D=false&vw=tb)  | `OECD.ELS.IMD,DSD_MIG_INT@DF_MIG_INT_TEMP,1.0+.A`; Standardised inflows of temporary migrants, Migration flows by category | Persons |
 | D15  | [data-explorer.oecd.org](https://data-explorer.oecd.org/vis?df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_MIG_INT%40DF_MIG_INT_PER&df%5Bag%5D=OECD.ELS.IMD&df%5Bvs%5D=1.0&dq=.A...&lom=LASTNPERIODS&lo=10&to%5BTIME_PERIOD%5D=false)  | `OECD.ELS.IMD,DSD_MIG_INT@DF_MIG_INT_PER,1.0+ITA.A...`; Standardised inflows of permanent-type migrants, Migration flows by category | Persons |
 
-### 3.2. Mashed-up dataset
+### 3.2. Mashed-up dataset <a name="s-3-2"></a>
 
 In order to manage the mash-up of different datasets with different licenses, we followed the [Guidelines for Open Data provided by the EU.](https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1561563110433&uri=CELEX:32019L1024)
 The datasets were then merged and processed into:
@@ -111,7 +155,7 @@ The datasets were then merged and processed into:
 
 You can see the result of mashed-up datasets in Catalogue Page.  
 
-# 4. Quality analysis of the datasets
+# 4. Quality analysis of the datasets <a name="quality-analysis"></a>
 To conduct the quality analysis, we adhered to the [ISO/IEC 25012 standard](https://iso25000.com/index.php/en/iso-25000-standards/iso-25012), which outlines 15 key data quality characteristics, as shown in the picture below. 
 
 ![Picture 1](https://github.com/user-attachments/assets/58a8f18e-d348-499f-9db5-b64ca6c3133f)
