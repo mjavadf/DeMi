@@ -384,8 +384,12 @@ The following is a resume of our original datasets' formats, metadata, provenanc
 - [Eurostat/labour market](https://ec.europa.eu/eurostat/web/lfs/statistics-illustrated "https://ec.europa.eu/eurostat/web/lfs/statistics-illustrated")  
 - [Eurostat/migrant integration](http://ec.europa.eu/eurostat/statistics-explained/index.php/Migrant_integration_statistics "http://ec.europa.eu/eurostat/statistics-explained/index.php/Migrant_integration_statistics")
 
-#### D7, D8, D9, D10, D11, D12
-(Not available at the time of writing)
+#### D7, D8, D9, D10, D11, D12  
+**Format**: CSV, JSON, SDMX  
+**Metadata**: Provided in the SDMX format with Developer API.  
+**URI**: [Statistice Istat](http://stra-dati.istat.it/ "http://stra-dati.istat.it/")  
+**Provenance**: [Statistiche Istat](http://stra-dati.istat.it/ "http://stra-dati.istat.it/")  
+*Note*: The ISTAT portal does not offer direct links to the datasets. Access to the datasets was obtained through the http://stra-dati.istat.it/ portal, which contains older data (prior to 2019).
 
 #### D13, D14, D15  
 **Format**: CSV, JSON, SDMX  
