@@ -22,7 +22,6 @@
     _(To be filled with content)_
     
 10.  **[RDF Assertion of Metadata](#rdf)**  
-    _(To be filled with content)_
     
 11.  **[Conclusions](#conclusions)**
 
@@ -133,8 +132,8 @@ The datasets were then merged and processed into:
 
 | Primary datasets  | Mashed-up dataset | URL | 
 | ------------- | ------------- | ------------- |
-| D4, D5, D15 | [DeMi: Trends by Country and Permits](https://github.com/mjavadf/DeMi/blob/main/datasets/mashup/italy_immigration_trends_by_country_and_permit.csv) | |
-| D8, D10, D11 | DeMi:  | |
+| D4, D5, D15 | [DeMi: Trends by Country and Residence Permits](https://github.com/mjavadf/DeMi/blob/main/datasets/mashup/italy_immigration_trends_by_country_and_permit.csv) | |
+| D8, D10, D11 | [DeMi: Trends by Education Level, Employment and Unemployment](https://github.com/mjavadf/DeMi/blob/main/datasets/mashup/italy_immigration_trends_by_demographic_profiles.csv)  | |
 
 
 # 4. Quality analysis of the datasets <a name="quality-analysis"></a>
@@ -268,8 +267,8 @@ A few datasets (D13–D15) fall under the [OECD’s Terms and Conditions*](https
 **Mashed-up datasets**
 | **Dataset** | **License** | 
 |-------------|------------------|
-| **DeMi: Trends by Country and Permits**      | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) |
-| **DeMi: ...**      | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) |
+| **DeMi: Trends by Country of Origin and Residence Permits**      | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) |
+| **DeMi: Trends by Education Level, Employment and Unemployment**      | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) |
 
 
 With [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en), you are free to:
@@ -410,8 +409,8 @@ Sustainability is a collective responsibility. We encourage anyone who notices a
 
 
 # 10. RDF assertion of metadata <a name="rdf"></a>
-For encoding metadata, we followed [Data Catalog Vocabulary (DCAT) - Version 2](https://www.w3.org/TR/vocab-dcat-2/). For validation of the files, we used [W3C RDF Validator](https://www.w3.org/RDF/Validator/). 
+For encoding metadata, we followed [Data Catalog Vocabulary (DCAT) - Version 2](https://www.w3.org/TR/vocab-dcat-2/). For validation, we used [W3C RDF Validator](https://www.w3.org/RDF/Validator/). 
 
-You can find the file wtih encoding of all our original and mashed-up datasets here. 
+You can find the file wtih encoding of all primary and mashed-up datasets here. 
 
 # 11. Conclusions <a name="conclusions"></a>
