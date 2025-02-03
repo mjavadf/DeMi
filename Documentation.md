@@ -119,21 +119,21 @@ The OECD (Organisation for Economic Co-operation and Development) is a forum and
 
 **List of files:**
 
-| ID  | Dataset link | Name | Unit of measure
-| ------------- | ------------- | ------------- | ------------- |
-| D13  | [data-explorer.oecd.org](https://data-explorer.oecd.org/vis?lc=en&fs%5B0%5D=Topic%2C1%7CSociety%23SOC%23%7CMigration%23SOC_MIG%23&pg=0&fc=Topic&bp=true&snb=6&vw=ov&df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_MIG%40DF_MIG&df%5Bag%5D=OECD.ELS.IMD&df%5Bvs%5D=1.0&dq=ITA..A.B11....&pd=2019%2C&to%5BTIME_PERIOD%5D=false&ly%5Bcl%5D=TIME_PERIOD&ly%5Brs%5D=SEX&ly%5Brw%5D=CITIZENSHIP)  | `OECD.ELS.IMD,DSD_MIG@DF_MIG,1.0+ITA..A.B11`; International migration database, Inflows of foreign population; Reference Area: Italy | Persons |
-| D14  | [data-explorer.oecd.org](https://data-explorer.oecd.org/vis?lc=en&fs%5B0%5D=Topic%2C1%7CSociety%23SOC%23%7CMigration%23SOC_MIG%23&pg=0&fc=Topic&bp=true&snb=6&df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_MIG_INT%40DF_MIG_INT_TEMP&df%5Bag%5D=OECD.ELS.IMD&df%5Bvs%5D=1.0&dq=.A...&lom=LASTNPERIODS&lo=10&to%5BTIME_PERIOD%5D=false&vw=tb)  | `OECD.ELS.IMD,DSD_MIG_INT@DF_MIG_INT_TEMP,1.0+.A`; Standardised inflows of temporary migrants, Migration flows by category | Persons |
-| D15  | [data-explorer.oecd.org](https://data-explorer.oecd.org/vis?df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_MIG_INT%40DF_MIG_INT_PER&df%5Bag%5D=OECD.ELS.IMD&df%5Bvs%5D=1.0&dq=.A...&lom=LASTNPERIODS&lo=10&to%5BTIME_PERIOD%5D=false)  | `OECD.ELS.IMD,DSD_MIG_INT@DF_MIG_INT_PER,1.0+ITA.A...`; Standardised inflows of permanent-type migrants, Migration flows by category | Persons |
+| ID  | Dataset link | Name |
+| ------------- | ------------- | ------------- |
+| D13  | [data-explorer.oecd.org](https://data-explorer.oecd.org/vis?lc=en&fs%5B0%5D=Topic%2C1%7CSociety%23SOC%23%7CMigration%23SOC_MIG%23&pg=0&fc=Topic&bp=true&snb=6&vw=ov&df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_MIG%40DF_MIG&df%5Bag%5D=OECD.ELS.IMD&df%5Bvs%5D=1.0&dq=ITA..A.B11....&pd=2019%2C&to%5BTIME_PERIOD%5D=false&ly%5Bcl%5D=TIME_PERIOD&ly%5Brs%5D=SEX&ly%5Brw%5D=CITIZENSHIP)  | `OECD.ELS.IMD,DSD_MIG@DF_MIG,1.0+ITA..A.B11`; International migration database, Inflows of foreign population; Reference Area: Italy | 
+| D14  | [data-explorer.oecd.org](https://data-explorer.oecd.org/vis?lc=en&fs%5B0%5D=Topic%2C1%7CSociety%23SOC%23%7CMigration%23SOC_MIG%23&pg=0&fc=Topic&bp=true&snb=6&df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_MIG_INT%40DF_MIG_INT_TEMP&df%5Bag%5D=OECD.ELS.IMD&df%5Bvs%5D=1.0&dq=.A...&lom=LASTNPERIODS&lo=10&to%5BTIME_PERIOD%5D=false&vw=tb)  | `OECD.ELS.IMD,DSD_MIG_INT@DF_MIG_INT_TEMP,1.0+.A`; Standardised inflows of temporary migrants, Migration flows by category | 
+| D15  | [data-explorer.oecd.org](https://data-explorer.oecd.org/vis?df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_MIG_INT%40DF_MIG_INT_PER&df%5Bag%5D=OECD.ELS.IMD&df%5Bvs%5D=1.0&dq=.A...&lom=LASTNPERIODS&lo=10&to%5BTIME_PERIOD%5D=false)  | `OECD.ELS.IMD,DSD_MIG_INT@DF_MIG_INT_PER,1.0+ITA.A...`; Standardised inflows of permanent-type migrants, Migration flows by category |
 
 ### 3.2. Mashed-up dataset <a name="s-3-2"></a>
 
 In order to manage the mash-up of different datasets with different licenses, we followed the [Guidelines for Open Data provided by the EU.](https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1561563110433&uri=CELEX:32019L1024)
 The datasets were then merged and processed into:
 
-| Primary datasets  | Mashed-up dataset | URL | 
-| ------------- | ------------- | ------------- |
-| D4, D5, D15 | [DeMi: Trends by Country and Residence Permits](https://github.com/mjavadf/DeMi/blob/main/datasets/mashup/italy_immigration_trends_by_country_and_permit.csv) | |
-| D8, D10, D11 | [DeMi: Trends by Education Level, Employment and Unemployment](https://github.com/mjavadf/DeMi/blob/main/datasets/mashup/italy_immigration_trends_by_demographic_profiles.csv)  | |
+| Primary datasets  | Mashed-up dataset | 
+| ------------- | ------------- | 
+| D4, D5, D15 | [DeMi: Trends by Country and Residence Permits](https://github.com/mjavadf/DeMi/blob/main/datasets/mashup/italy_immigration_trends_by_country_and_permit.csv) | 
+| D8, D10, D11 | [DeMi: Trends by Education Level, Employment and Unemployment](https://github.com/mjavadf/DeMi/blob/main/datasets/mashup/italy_immigration_trends_by_demographic_profiles.csv)  | 
 
 
 # 4. Quality analysis of the datasets <a name="quality-analysis"></a>
