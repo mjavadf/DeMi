@@ -133,11 +133,9 @@ The datasets were then merged and processed into:
 
 | Primary datasets  | Mashed-up dataset | URL | 
 | ------------- | ------------- | ------------- |
-| D1, D2, D3, D4, D5, D12 | DeMi: Demographic and Citizenship Trends | |
-| D13, D14, D15 | DeMi: Migration Flow and Entry Types | |
-| D6, D7, D8, D9, D10, D11 | DeMi: Socioeconomic and Labor Market | |
+| D4, D5, D15 | [DeMi: Trends by Country and Permits](https://github.com/mjavadf/DeMi/blob/main/datasets/mashup/italy_immigration_trends_by_country_and_permit.csv) | |
+| D8, D10, D11 | DeMi:  | |
 
-You can see the result of mashed-up datasets in Catalogue Page.  
 
 # 4. Quality analysis of the datasets <a name="quality-analysis"></a>
 To conduct the quality analysis, we adhered to the [ISO/IEC 25012 standard](https://iso25000.com/index.php/en/iso-25000-standards/iso-25012), which outlines 15 key data quality characteristics, as shown in the picture below. 
@@ -270,9 +268,9 @@ A few datasets (D13–D15) fall under the [OECD’s Terms and Conditions*](https
 **Mashed-up datasets**
 | **Dataset** | **License** | 
 |-------------|------------------|
-| **DeMi: Demographic and Citizenship Trends**      | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) |
-| **DeMi: Migration Flow and Entry Types**      | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) |
-| **DeMi: Socioeconomic and Labor Market**      | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) |
+| **DeMi: Trends by Country and Permits**      | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) |
+| **DeMi: ...**      | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) |
+
 
 With [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en), you are free to:
 
@@ -324,11 +322,9 @@ While IstatData (D1–D5), Not Italia 2024 (D6), and Immigrants.Stat (D7–D12) 
 
 **Mashed-up datasets**
 
-**DeMi: Demographic and Citizenship Trends** – Examines the evolution of foreign residents, citizenship acquisition trends, and migration balance over time.
+**DeMi: Trends by Country and Permits** – Examines the evolution of foreign residents, with a focus on gender, country of origin, temporary and permanent migration categories.
 
-**DeMi: Migration Flow and Entry Types** – Analyzes migration flows into Italy, distinguishing between temporary and permanent migration categories.
-
-**DeMi: Socioeconomic and Labor Market** – Explores employment and education trends among immigrants, with a focus on gender, education level, and employment type.
+**DeMi: ...** – Explores employment and education trends among immigrants, with a focus on gender, education level, and employment type.
 
 
 # 6. Ethics analysis<a name="ethics-analysis"></a>
@@ -414,6 +410,8 @@ Sustainability is a collective responsibility. We encourage anyone who notices a
 
 
 # 10. RDF assertion of metadata <a name="rdf"></a>
+For encoding metadata, we followed [Data Catalog Vocabulary (DCAT) - Version 2](https://www.w3.org/TR/vocab-dcat-2/). For validation of the files, we used [W3C RDF Validator](https://www.w3.org/RDF/Validator/). 
 
+You can find the file wtih encoding of all our original and mashed-up datasets here. 
 
 # 11. Conclusions <a name="conclusions"></a>
