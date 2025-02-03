@@ -135,6 +135,8 @@ The datasets were then merged and processed into:
 | D4, D5, D15 | [DeMi: Trends by Country and Residence Permits](https://github.com/mjavadf/DeMi/blob/main/datasets/mashup/italy_immigration_trends_by_country_and_permit.csv) | 
 | D8, D10, D11 | [DeMi: Trends by Education Level, Employment and Unemployment](https://github.com/mjavadf/DeMi/blob/main/datasets/mashup/italy_immigration_trends_by_demographic_profiles.csv)  | 
 
+The process of merging is present through [Jupyter Notebook](https://jupyter.org) and can be found [here](https://github.com/mjavadf/DeMi/blob/main/DeMi.ipynb). 
+
 
 # 4. Quality analysis of the datasets <a name="quality-analysis"></a>
 To conduct the quality analysis, we adhered to the [ISO/IEC 25012 standard](https://iso25000.com/index.php/en/iso-25000-standards/iso-25012), which outlines 15 key data quality characteristics, as shown in the picture below. 
