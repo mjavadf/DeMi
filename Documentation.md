@@ -133,8 +133,8 @@ The datasets were then merged and processed into:
 
 | Primary datasets  | Mashed-up dataset | URL | 
 | ------------- | ------------- | ------------- |
-| ... | [DeMi: Trends by Country and Permits](https://github.com/mjavadf/DeMi/blob/main/datasets/mashup/italy_immigration_trends_by_country_and_permit.csv) | |
-| ... | DeMi:  | |
+| D4, D5, D15 | [DeMi: Trends by Country and Permits](https://github.com/mjavadf/DeMi/blob/main/datasets/mashup/italy_immigration_trends_by_country_and_permit.csv) | |
+| D8, D10, D11 | DeMi:  | |
 
 
 # 4. Quality analysis of the datasets <a name="quality-analysis"></a>
@@ -410,8 +410,8 @@ Sustainability is a collective responsibility. We encourage anyone who notices a
 
 
 # 10. RDF assertion of metadata <a name="rdf"></a>
-For encoding metadata, we followed [Data Catalog Vocabulary (DCAT) - Version 2](https://www.w3.org/TR/vocab-dcat-2/). 
+For encoding metadata, we followed [Data Catalog Vocabulary (DCAT) - Version 2](https://www.w3.org/TR/vocab-dcat-2/). For validation of the files, we used [W3C RDF Validator](https://www.w3.org/RDF/Validator/). 
 
-
+You can find the file wtih encoding of all our original and mashed-up datasets here. 
 
 # 11. Conclusions <a name="conclusions"></a>
