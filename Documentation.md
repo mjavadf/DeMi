@@ -323,7 +323,7 @@ While IstatData (D1–D5), Not Italia 2024 (D6), and Immigrants.Stat (D7–D12) 
 
 **DeMi: Trends by Country and Permits** – Examines the evolution of foreign residents, with a focus on gender, country of origin, temporary and permanent migration categories.
 
-**DeMi: ...** – Explores employment and education trends among immigrants, with a focus on gender, education level, and employment type.
+**DeMi: Trends by Education Level, Employment and Unemployment** – Explores employment and education trends among immigrants, with a focus on gender, education level, employment/unemployment percentage and work type.
 
 
 # 6. Ethics analysis<a name="ethics-analysis"></a>
