@@ -39,7 +39,7 @@ DeMi aims to study and analyze migration trends and demographics in Italy, focus
 
 The background of this project stems from the increasing significance of migration as local phenomenon, particularly within Italy. Migration impacts various aspects of society, such as labor markets, education, and public policy. The idea behind DeMi is to harness open datasets and digital tools to analyze migration trends, offering insights that enhance understanding of migration dynamics and guide policymaking.
 
-To achieve its objectives, DeMi utilizes a collection of open datasets that have been analyzed from legal, ethical, and technical perspectives. The datasets were processed to create mashed-up data compliant with the principles of Linked Open Data, incorporating RDF models aligned with the [DCAT-AP](https://www.w3.org/TR/vocab-dcat-3/) ontology. This approach enabled the generation of high-quality, [5-star Linked Open Data](https://www.w3.org/community/webize/2014/01/17/what-is-5-star-linked-data/), which is freely downloadable and reusable.
+To achieve its objectives, DeMi utilizes a collection of open datasets that have been analyzed from legal, ethical, and technical perspectives. The datasets were processed to create mashed-up data, incorporating RDF models aligned with the [DCAT-AP](https://www.w3.org/TR/vocab-dcat-3/) ontology. 
 
 The results of this project are presented through an interactive and user-friendly website, supported by documentation. Additionally, all scripts and derived datasets are shared on the project's GitHub repository under an open license, ensuring that the research is transparent, repeatable, and accessible to a broad audience.
 
@@ -414,5 +414,7 @@ Sustainability is a collective responsibility. We encourage anyone who notices a
 For encoding metadata, we followed [Data Catalog Vocabulary (DCAT) - Version 2](https://www.w3.org/TR/vocab-dcat-2/). For validation, we used [W3C RDF Validator](https://www.w3.org/RDF/Validator/). 
 
 You can find the file wtih encoding of all primary and mashed-up datasets here. 
+
+
 
 # 11. Conclusions <a name="conclusions"></a>
