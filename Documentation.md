@@ -413,7 +413,7 @@ Sustainability is a collective responsibility. We encourage anyone who notices a
 # 10. RDF assertion of metadata <a name="rdf"></a>
 For encoding metadata, we followed [Data Catalog Vocabulary (DCAT) - Version 2](https://www.w3.org/TR/vocab-dcat-2/). For validation, we used [W3C RDF Validator](https://www.w3.org/RDF/Validator/). 
 
-You can find the file wtih encoding of all primary and mashed-up datasets here. 
+You can find the file wtih encoding of all primary and mashed-up datasets [here](https://github.com/mjavadf/DeMi/blob/main/rdf.xml). 
 
 
 
