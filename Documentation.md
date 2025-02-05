@@ -411,10 +411,11 @@ Sustainability is a collective responsibility. We encourage anyone who notices a
 
 
 # 10. RDF assertion of metadata <a name="rdf"></a>
-For encoding metadata, we followed [Data Catalog Vocabulary (DCAT) - Version 2](https://www.w3.org/TR/vocab-dcat-2/). For validation, we used [W3C RDF Validator](https://www.w3.org/RDF/Validator/). 
+You can find the file wtih encoding of all primary and mashed-up datasets [here](https://github.com/mjavadf/DeMi/blob/main/rdf.xml).
+For encoding metadata, we followed [Data Catalog Vocabulary (DCAT) - Version 2](https://www.w3.org/TR/vocab-dcat-2/). For validation, we used [W3C RDF Validator](https://www.w3.org/RDF/Validator/).  
 
-You can find the file wtih encoding of all primary and mashed-up datasets [here](https://github.com/mjavadf/DeMi/blob/main/rdf.xml). 
-
-
+**Notes**
+While the [EU Publications Office](http://publications.europa.eu/resource/authority/corporate-body) maintains a registry of corporate bodies, ISTAT is not included in this registry. To address this, the dct:publisher property for ISTAT datasets directly references [ISTAT’s official website](https://www.istat.it/en/). 
+In contrast, datasets sourced from OECD use the EU corporate-body URI (http://publications.europa.eu/resource/authority/corporate-body/OECD), as OECD is officially listed in the EU registry. 
 
 # 11. Conclusions <a name="conclusions"></a>
