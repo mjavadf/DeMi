@@ -1,4 +1,4 @@
-Territory,Gender,Education_Level,Year,Unmployed percentage,Employed percentage,Work_Type,Value,Age_class,Foreign_Percentage,Italian_Percentage
+Territory,Gender,Education_Level,Year,Unemployed_percentage,Employed_percentage,Work_Type,Value,Age_class,Foreign_Percentage,Italian_Percentage
 Italy,total,total,2019,13.883779,61.054255,total,2379704.0,Total,,
 Italy,total,total,2019,13.883779,61.054255,full-time,1771368.0,Total,,
 Italy,total,total,2019,13.883779,61.054255,part-time,608337.0,Total,,
