@@ -27,9 +27,11 @@ This project and its outputs (including mashed-up datasets) are released under t
 
 ## Contributors
 
-* Ekaterina Krasnova
-* Mohammad Javad Farokhi Darani
+* [Ekaterina Krasnova](mailto:ekaterina.krasnova@studio.unibo.it)
+* [Mohammad Javad Farokhi Darani](mailto:mohammad.farokhi2@studio.unibo.it)
 
 ---
 
 *Last updated: June 2025*
+
+
