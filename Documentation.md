@@ -19,7 +19,6 @@
 8.  **[Sustainability of Dataset Updates Over Time](#sustainability)**  
     
 9.  **[Visualization](#visualization)**  
-    _(To be filled with content)_
     
 10.  **[RDF Assertion of Metadata](#rdf)**  
     
@@ -409,6 +408,75 @@ Sustainability is a collective responsibility. We encourage anyone who notices a
 
 # 9. Visualization <a name="visualization"></a>
 
+The visualization component of DeMi combines *geographical* and *demographic* analyses to provide a comprehensive understanding of migration trends in Italy. It was developed using **React** and **Chakra UI** for front-end design, **amCharts** for dynamic chart rendering, **TanStack Query** for efficient data fetching, and **PapaParse** for CSV data processing. Below are the key visualizations generated:
+
+## Geographical analysis
+**1. Interactive Geographic Map with Filtered Dataset**
+
+A choropleth map displaying immigration trends to Italy, filtered by year (2019–2023), gender (Total/Male/Female), and permit type. Users can:
+* Select a year (2019–2023) to update the map and dataset.
+* Filter by gender to analyze sex-specific migration patterns (e.g., female immigrants from Russia: 2,275 in 2019).
+* Search for countries to highlight specific regions (e.g., "Russia" or "Ukraine").
+* Hover over countries to view aggregated values, such as total immigrants or permit types.
+
+**Dataset table:** A dynamic table below the map lists granular data.
+* Year: Selected timeframe.
+* Country_Code/Country_Name: ISO codes and names of origin countries.
+* Sex: Gender breakdown (Total, Male, Female).
+* Value: Number of immigrants.
+* Permit_Type: Short-term (e.g., seasonal work) vs. long-term (e.g., asylum).
+* Dataset_Code: Source dataset identifier (e.g., D4, D5).
+* Dataset: name of a dataset (e.g., Immigrants - citizenship).
+
+**Insights:**
+* Albania, Romania and Morocco dominate immigration flows, with Bangladesh emerging as a notable contributor in 2021.
+* Female immigrants outnumber males in every year.
+   
+**2. Immigration Trends by Country of Origin (Top 5 Countries)**
+
+A time-series bar chart illustrating the top five countries of origin for immigrants in Italy from 2019 to 2024. Users can toggle between years and hover to view exact figures (e.g., Ukraine: 33,897 in 2023).
+
+**Insights:**
+* Romania and Albania consistently rank as the top sources of immigrants.
+* Ukraine shows a significant surge post-2022, due to geopolitical events.
+* Bangladesh and Morocco exhibit steady growth, reflecting broader migration patterns from South Asia and North Africa.
+
+**3. Residence Permits by Type (Short-term vs. Long-term)**
+
+A stacked area chart comparing short-term (e.g., seasonal work) and long-term (e.g., asylum, family reunification) residence permits issued annually. Dynamic filters allow users to isolate specific permit categories or time ranges.
+
+**Insights:**
+* Long-term permits dominate, peaking at 2.1 million in 2023, driven by humanitarian crises and labor demands.
+* Short-term permits fluctuate but remain secondary, aligning with Italy’s emphasis on stable immigration integration.
+
+## Demographic analysis
+
+**1. Italy Employment & Unemployment Rate (%) - Total Population**
+
+A line chart tracking employment and unemployment rates for Italy’s total population.
+
+**Insights:**
+* Unemployment peaked at 14.5% in 2021 (COVID-19 impact) but dropped to 11% by 2023.
+
+**2. Work Type Distribution Over Time (2020–2023)**
+
+A stacked bar chart showing the proportion of full-time vs. part-time work among Italy’s total population.
+
+**Insights**:
+* Full-time employment rose from 1.6 million (2020) to 1.8 million (2023), reflecting post-pandemic recovery.
+
+
+**3. Employment vs. Unemployment by Territory (2023)**
+
+A horizontal bar chart comparing employment and unemployment rates across Italian territories:
+* Nord-ovest: 64% employed, 9% unemployed.
+* Nord-est: 65% employed, 9% unemployed.
+* Nord: 64% employed, 9% unemployed.
+* Mezzogiorno: 50% employed, 19% unemployed.
+* Centro: 61% employed, 11% unemployed.
+
+**Insights:** Northern regions exhibit stronger labor markets, while Southern Italy faces structural unemployment.
+
 
 # 10. RDF assertion of metadata <a name="rdf"></a>
 You can find the file wtih encoding of all primary and mashed-up datasets [here](https://github.com/mjavadf/DeMi/blob/main/metadata.rdf.xml).
@@ -419,3 +487,6 @@ While the [EU Publications Office](http://publications.europa.eu/resource/author
 In contrast, datasets sourced from OECD use the EU corporate-body URI (http://publications.europa.eu/resource/authority/corporate-body/OECD), as OECD is officially listed in the EU registry. 
 
 # 11. Conclusions <a name="conclusions"></a>
+
+The DeMi project systematically examines Italian migration patterns using publicly available datasets, addressing both technical hurdles (e.g. legacy data formats and metadata standardization) and ethical issues (e.g. privacy under GDPR).  Its analysis reveals notable trends: for example, by 2023–24 Ukraine became [the largest foreign-born community in Italy](https://schengenvisainfo.com/news/italy-issued-over-330000-residence-permits-to-foreigners-in-2023/), overtaking traditional origin countries amid ongoing external crises.  Likewise, the vast majority of immigrants hold long-term residence permits – [on the order of two‑thirds of all permits](https://www.pragueprocess.eu/en/countries/866-italy?tmpl=component&ml=1#:~:text=At%20the%20end%20of%202020%2C,compared%20to) – indicating deep roots and underscoring the need for long-term integration strategies.  The study also documents persistent labour-market disparities: even highly [educated migrants face unemployment rates far above those of comparably educated natives](https://unbiasthenews.org/blocked-at-every-turn-why-migrants-in-italy-face-one-of-europes-worse-brain-waste-gaps/#:~:text=Educated%20migrants%20in%20Italy%20may,of%20the%20highest%20in%20Europe), a gap that is particularly acute in economically weaker regions (e.g. Southern Italy).  
+In terms of impact, DeMi’s outputs are designed to aid policymakers (for instance, by providing timely statistics to inform resource planning and integration policies), to serve as reusable RDF-formatted datasets for researchers, and to engage the public via interactive visualizations that improve understanding of migration dynamics.  The work overcame challenges such as outdated or fragmented source data and laborious cleaning to meet European metadata standards (the project’s data are published in DCAT-AP–compliant RDF); it also ensured transparency and reuse by adopting open licensing (CC BY-SA 4.0) for all outputs.  Future efforts will expand the platform by incorporating additional sources (such as Eurostat), developing predictive modeling of migration flows, and enhancing multilingual user interfaces. 
