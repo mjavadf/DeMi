@@ -201,9 +201,9 @@ The fields with an asterisk (*) have to be further explained in the notes below.
 | | 1.2 Is the dataset free of any indirect personal data that could be used for identifying the natural person? If so, is there a law that authorizes the PA to release them? Or any other legal basis? Identify the legal basis. | Yes | Yes | Yes | Yes |
 | | 1.3 Is the dataset free of any particular personal data (art. 9 GDPR)? If so is there a law that authorizes the PA to release them? | Yes | Yes | Yes | Yes |
 | | 1.4 Is the dataset free of any information that combined with common data available on the web, could identify the person? If so, is there a law that authorizes the PA to release them? | Yes | Yes | Yes | Yes |
-| | 1.5 Is the dataset free of any information related to human rights (e.g. refugees, witness protection, etc.)? | | | | |
+| | 1.5 Is the dataset free of any information related to human rights (e.g. refugees, witness protection, etc.)? | Yes | Yes | Yes | Yes |
 | | 1.6 Do you use a tool for calculating the range of the risk of deanonymization? Do you anonymize the dataset? With which technique? Did you check the three mandatory parameters: singling out, linking out, inference out? | No* | No* | No* | No* |
-| | 1.7 Are you using geolocalization capabilities? Do you check that the geolocalization process can’t identify single individuals in some circumstances? | | | | |
+| | 1.7 Are you using geolocalization capabilities? Do you check that the geolocalization process can’t identify single individuals in some circumstances? | No | No | No | No |
 | | 1.8 Did you check that the open data platform respect all the privacy regulations (registration of the end-user, profiling, cookies, analytics, etc.)? | Yes | Yes | Yes | No* |
 | | 1.9 Do you know who are in your open data platform the Controller and Processor of the privacy data of the system? | Yes, Istituto Nazionale di Statistica (Istat) | Yes, Istat | Yes, Istat | Yes, OECD |
 | | 1.10 Where the datasets are physically stored (country and jurisdiction)? Do you have a cloud computing platform? Do you have checked the privacy regulation of the country where the dataset are physically stored? (territoriality) | Italy (Italian jurisdiction), no, yes | Italy (Italian jurisdiction), no, yes | Italy (Italian jurisdiction), no, yes | France (French jurisdiction), no, yes |
@@ -224,7 +224,7 @@ The fields with an asterisk (*) have to be further explained in the notes below.
 | | 4.3 Do you check if there are some limitations connected to the international relations, public security or national defence? | Yes | Yes | Yes | Yes |
 | | 4.4 Do you check if there are some limitations concerning the public interest? | Yes | Yes | Yes | Yes |
 | | 4.5 Do you check the international law limitations? | Yes | Yes | Yes | Yes |
-| | 4.6 Do you check the INSPIRE law limitations for the spatial data? | | | | |
+| | 4.6 Do you check the INSPIRE law limitations for the spatial data? | Yes | Yes | Yes | Yes |
 | **Economical Conditions** | | |
 | | 5.1 Do you check that the dataset could be released for free? | Yes | Yes | Yes | Yes |
 | | 5.2 Do you check if there are some agreements with some other partners in order to release the dataset with a reasonable price? | No | No | No | No |
@@ -232,10 +232,10 @@ The fields with an asterisk (*) have to be further explained in the notes below.
 | | 5.4 In case you decide to release the dataset to a reasonable price do you check if the limitation imposed by the new directive 2019/1024/EU are respected? Are you able to calculate the “marginal cost”? Are you able to justify the “reasonable return on investment” limited to cover the costs of collection, production, reproduction, dissemination, preservation and rights clearance? There is a national law that justify your public administration to apply the “reasonable return of investment”? | N/A | N/A | N/A | N/A |
 | | 5.5 In case you decide to release the dataset to a reasonable price do you check the e-Commerce directive1 and regulation? | N/A | N/A | N/A | N/A |
 | **Temporary aspects** | | |
-| | 6.1 Do you have a temporary policy for updating the dataset? | | | | |
-| | 6.2 Do you have some mechanism for informing the end-user that the dataset is updated at a given time to avoid mis-usage and so potential risk of damage? | | | | |
-| | 6.3 Did you check if the dataset for some reason can’t be indexed by the research engines (e.g. Google, Yahoo, etc.)? | | | | |
-| | 6.4 In case of personal data, do you have a reasonable technical mechanism for collecting request of deletion (e.g. right to be forgotten)? | | | | |
+| | 6.1 Do you have a temporary policy for updating the dataset? | No | No | No | No |
+| | 6.2 Do you have some mechanism for informing the end-user that the dataset is updated at a given time to avoid mis-usage and so potential risk of damage? | No | No | No | No |
+| | 6.3 Did you check if the dataset for some reason can’t be indexed by the research engines (e.g. Google, Yahoo, etc.)? | No | No | No | No |
+| | 6.4 In case of personal data, do you have a reasonable technical mechanism for collecting request of deletion (e.g. right to be forgotten)? | N/A | N/A | N/A | N/A |
 
 #### Notes
 
