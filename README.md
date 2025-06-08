@@ -7,6 +7,7 @@ A lightweight digital humanities project for analyzing migration trends and demo
 ## Overview
 
 • Study migration flows by country of origin, residence permit type, education level, employment, and unemployment.
+
 • Interactive visualizations built with React and amCharts; data processing via Python notebooks.
 
 ## Project Site
